@@ -1,4 +1,5 @@
 <script lang="ts">
+import Play from "$lib/components/Play.svelte";
 
 let albums = [
 {albumcover: "/mockups/acmockup.png", albumname: "Afternoons Coffeespoons", albumartist: "Music Albums"},
@@ -32,19 +33,13 @@ let albums = [
 				<img class="" src="/covercoding2.png" alt="me smiling at a pool" />
 				<button class="absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Artist</p></button>
 				<h1 class="absolute font-bold text-5xl text-white bottom-20 left-5">Coding</h1>
-				<h3 class="absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">13 projects</h3>
+				<h3 class="absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">13 projects - 6 years</h3>
 				
 			</div>
 				
 		</header>
 
-		<div class="flex">
-		<button class="rounded-full h-14 w-14 flex items-center justify-center my-4 mx-2 text-black bg-green-600 hover:bg-green-500"><i class="material-icons text-4xl">play_arrow</i></button>
-		<button class="rounded-full h-18 w-18 flex items-center justify-center my-4 mx-2 opacity-75 hover:opacity-100"><i class="material-icons text-4xl">shuffle</i></button>
-		<span class="badge variant-ringed px-4 h-10 my-6 mx-2  hover:variant-filled text-lg">Following</span>
-		<button class="rounded-full h-18 w-18 flex items-center justify-center my-4 mx-2 opacity-75 hover:opacity-100"><i class="material-icons text-4xl">more_horiz</i></button>
-		
-		</div>
+		<Play />
 
 		<h3 class="h3 p-4 font-semibold">Catalogue</h3>
 
