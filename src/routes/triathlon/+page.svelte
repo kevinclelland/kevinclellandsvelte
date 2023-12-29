@@ -42,29 +42,71 @@
     
             <Play />
     
-            <h3 class="h3 p-4 font-semibold">Catalogue</h3>
+            <h3 class="h3 p-4 font-semibold">Results and Upcoming</h3>
     
             
-            <div class="mx-auto text-token justify-items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
-    
-                {#each albums as {albumcover, albumname, albumartist}, index (albumcover)}
-                    <div class="col-span-1 card card-hover overflow-hidden max-w-xs">
-                        <header class="flex justify-around">
-                            <img src={albumcover} class="max-w-fill" alt="Post" />
-                        </header>
-                        <div class="p-4 space-y-4">
-                            <h3 class="h3">{albumname}</h3>
-            
-                            <article>
-                                <p class="description">{albumartist}</p>
-                            </article>
-                        </div>
-            
-                        
-                    </div>
-                {/each}
-                
-            </div>
+            <!-- Responsive Container (recommended) -->
+<div class="table-container">
+	<!-- Native Table Element -->
+	<table class="table table-compact table-hover">
+		
+		<tbody>
+			
+				<tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02 Jun 2024</div><img src="/a1.jpg" class="max-h-14 mx-2" alt=""><div class="mx-2 text-lg">Durban 70.3</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">Upcoming</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">Upcoming</div></div></td>
+				</tr>
+				<tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">24 Jan 2024</div><img src="/a2.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">KZN Tri Champs</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">Upcoming</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">Upcoming</div></div></td>
+				</tr>
+				<tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">19 Nov 2023</div><img src="/a3.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman 10km run</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">145,451</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">2:33</div></div></td>
+				</tr>
+				<tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">06 Aug 2023</div><img src="/a4.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Durban Ultra Sprint</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">2,421,148</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">4:21</div></div></td>
+				</tr>
+				<tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">12 Mar 2023</div><img src="/a5.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman Challenge</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">965,457</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">3:31</div></div></td>
+				</tr>
+                <tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">30 Oct 2022</div><img src="/a5.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">WWXTRI</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">1st Age-Group, 1st Overall</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">01:15:50</div></div></td>
+				</tr>
+                <tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02 Oct 2022</div><img src="/a5.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Durban 70.3</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">11th Age-Group, 64th Overall</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">05:15:10</div></div></td>
+				</tr>
+                <tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">21 Aug 2022</div><img src="/a5.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman Challenge</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">4th Age-Group, 15th Overall</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">02:15:52</div></div></td>
+				</tr>
+                <tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">20 Feb 2022</div><img src="/a5.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman 10km run</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">1st Age-Group, 1st Overall</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">00:39:35</div></div></td>
+				</tr>
+                <tr>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">09 Jan 2022</div><img src="/a5.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">KZN Tri Champs</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">2nd Age-Group, 24th Overall</div></div></td>
+					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 hover:opacity-100">02:44:56</div></div></td>
+				</tr>
+			
+		</tbody>
+	
+	</table>
+</div>
     
             
     
