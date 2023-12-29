@@ -8,7 +8,7 @@ function follow() {
 		followingStatus = "Follow";
 	}
 	
-}
+};
 
 </script>
 
@@ -90,9 +90,9 @@ function follow() {
 <div class="px-4 max-w-3xl relative card-hover">
 	<img src="/coverphoto.jpg" alt="" class="rounded-lg grayscale brightness-50">
 	<div class="absolute text-lg font-semibold bottom-12 left-5 opacity-100 p-6">
-	<div class="italic">"I struggle at triathlon, photography, coding and guitar. I’m good at my day job working in a bank."</div><br>
+	<div class="italic">"I struggle at triathlon, photography, coding and guitar. Im good at my day job working in a bank."</div><br>
 	<div>My areas of focus are web development, not sucking at guitar and piano, taking more photos and training for Half-Ironman. In 2017 I self-published a book on Amazon about trying to qualify for World Triathlon Champs.</div><br>
-	<div>I’m an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my “ledger of done”…and once it’s done who says it can’t be made perfect.</div>
+	<div>Im an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my “ledger of done”…and once its done who says it cant be made perfect.</div>
 </div>
 </div>
 
