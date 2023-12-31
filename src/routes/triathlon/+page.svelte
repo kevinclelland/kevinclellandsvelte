@@ -106,77 +106,77 @@
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">6 Jun 2021</div><img src="/703logo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Durban Half Ironman</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">18th 35-39, 82nd Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">5:20:15</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">05:20:15</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">16 Feb 2020</div><img src="/tinmanlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman Triathlon</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">3rd 35-39, 19th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2:09:43</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02:09:43</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">19 Jan 2020</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">KZN Triathlon Champs</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">4th 35-39, 37th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2:28:01</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02:28:01</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">2 Jun 2019</div><img src="/703logo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Durban Half Ironman</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">19th 35-39, 128th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">5:01:20</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">05:01:20</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">14 Apr 2019</div><img src="/tinmanlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman 10km Run</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">3rd Male, 3rd Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">39:22</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">00:39:22</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">17 Mar 2019</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Deloitte 10km run</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">26th Male, 29th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">40:42</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">00:40:42</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">12 Aug 2018</div><img src="/tinmanlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman 10km Run</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">8th Male, 10th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">45:13 (back spasm)</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">00:45:13 (back spasm)</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">4 Feb 2018</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">226 Brick Challenge 21km Run</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1st 30-34, 4th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1:40:29</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">01:40:29</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">14 Jan 2018</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">KZN Triathlon Champs</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2nd 30-34, 23rd Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2:22:18</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02:22:18</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">8 Oct 2017</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">FNB 10km Run</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">109th Open, 155th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">42:04</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">00:42:04</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">28 May 2017</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">KZN Duathlon Champs</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1st 30-34, 24th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2:21:34</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02:21:34</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">19 Mar 2017</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">SA Triathlon Champs</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">8th 30-34</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2:32:37</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02:32:37</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">5 Mar 2017</div><img src="/ultralogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Durban Ultra Sprint</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2nd 24-39, 8th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1:04:28</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">01:04:28</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">15 Jan 2017</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">KZN Triathlon Champs</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2nd 30-34, 25th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2:25:09</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02:25:09</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">27 Nov 2016</div><img src="/ultralogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Midlands Ultra Sprint</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1st 30-34, 13th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1:13:58</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">01:13:58</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">24 Oct 2016</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Golden Gates 3 day Trail Run</div></div></td>
@@ -186,32 +186,32 @@
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">17 Apr 2016</div><img src="/tinmanlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman Triathlon</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">15th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1:48:38</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">01:48:38</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">22 Mar 2016</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">SA Triathlon Champs</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">10th 30-34, 51st Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1:28:35</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">01:28:35</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">6 Mar 2016</div><img src="/ultralogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Midlands Ultra Sprint</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1st 30-34, 4th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1:12:19</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">01:12:19</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">21 Feb 2016</div><img src="/tinmanlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Tinman Triathlon</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1st 30-34, 4th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1:46:41</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">01:46:41</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">17 Jan 2016</div><img src="/otherlogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">KZN Triathlon Champs</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1st 30-34, 8th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2:11:38</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">02:11:38</div></div></td>
                 </tr>
                 <tr>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75 min-w-28">29 Nov 2015</div><img src="/ultralogo.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Midlands Ultra Sprint</div></div></td>
                     <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1st 30-39, 9th Overall</div></div></td>
-                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1:19:17</div></div></td>
+                    <td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">01:19:17</div></div></td>
                 </tr>
                 
                 
