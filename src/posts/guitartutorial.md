@@ -35,19 +35,18 @@ photo: '/guitartutorial.jpg'
 
 <p class="text-4xl p-4">YOUTUBE: MORE IS MORE</p>
 <p class="text-xl p-4">The deciding factor which edged Youtube into the number 1 spot over Gear is the sheer amount of time I have spent over the years learning how to play guitar by watching Youtube. I’m 100% confident that if you took Youtube away I wouldn’t be at the playing level that I currently am. I’ve never revealed this to anyone before but as a world exclusive I’m going to explain the exact steps I take to use Youtube to learn guitar.</p>
-<br><br>
 
-<ol class="list-decimal">
 
-<li>Go to Youtube and make sure your guitar is next to you</li>
-<li>Dedicate at least one hour watching the newly suggested videos that they have for you. You’ll find the vast majority of these won’t be related to music but it’s essential that you watch these so that you will not be distracted when you start playing. I find, personally, I need to watch the “Top 10” videos such as “Top 10 sitcoms of the 90’s” or “Top 10 wealthiest sportspeople” at least.</li>
-<li>With the suggested videos out of the way you should search for a song you’d like to learn. Great channels are JustinGuitar, Marty Shwartz and Andy Guitar. Click on any of the ones you feel looks the best and preferably the most recent. Unfortunately, the teachers all take you through how to play the full songs and not just the intro. Luckily we can rewind as soon as they progress beyond the intro.</li>
-<li>Watch the into part of the song thoroughly and then pick up your guitar and spend the next 10min repeating the intro to the song while trying to play with. The key to my playing has been my three-pronged approach to learning. The first prong is starting with the first video and only practising for 10 minutes with it. The second and third prongs are to move on to a second and then third video of the same song. The benefit to this approach is that you most likely don’t even have to play along with your guitar because the three videos will be near identical so you’ve already done enough practise using the first video.</li>
-<li>After watching the intro to the third and last video it’s vital that you reinforce what you’ve learnt by searching for a cover of the song you’ve just learnt the intro to. I suggest spending the next hour watching covers of this song and generally covers of other songs that people have done. Bank this inspiration because this will help you find the discipline to practise tomorrow.</li>
 
-</ol>
 
-<p>So that’s it – my top 5 tips on how to be as good at guitar as I am. I hope you enjoy them and they help you.</p>
+<div class="p-4 text-2xl">1. Go to Youtube and make sure your guitar is next to you</div>
+<div class="p-4 text-2xl">2. Dedicate at least one hour watching the newly suggested videos that they have for you. You’ll find the vast majority of these won’t be related to music but it’s essential that you watch these so that you will not be distracted when you start playing. I find, personally, I need to watch the “Top 10” videos such as “Top 10 sitcoms of the 90’s” or “Top 10 wealthiest sportspeople” at least.</div>
+<div class="p-4 text-2xl">3. With the suggested videos out of the way you should search for a song you’d like to learn. Great channels are JustinGuitar, Marty Shwartz and Andy Guitar. Click on any of the ones you feel looks the best and preferably the most recent. Unfortunately, the teachers all take you through how to play the full songs and not just the intro. Luckily we can rewind as soon as they progress beyond the intro.</div>
+<div class="p-4 text-2xl">4. Watch the into part of the song thoroughly and then pick up your guitar and spend the next 10min repeating the intro to the song while trying to play with. The key to my playing has been my three-pronged approach to learning. The first prong is starting with the first video and only practising for 10 minutes with it. The second and third prongs are to move on to a second and then third video of the same song. The benefit to this approach is that you most likely don’t even have to play along with your guitar because the three videos will be near identical so you’ve already done enough practise using the first video.</div>
+<div class="p-4 text-2xl">5. After watching the intro to the third and last video it’s vital that you reinforce what you’ve learnt by searching for a cover of the song you’ve just learnt the intro to. I suggest spending the next hour watching covers of this song and generally covers of other songs that people have done. Bank this inspiration because this will help you find the discipline to practise tomorrow.</div>
+
+
+<p class="p-4 text-2xl">So that’s it – my top 5 tips on how to be as good at guitar as I am. I hope you enjoy them and they help you.</p>
 
 <p class="text-4xl p-4">BEFORE I GO – BONUS TIP:</p>
 <p class="text-xl p-4">Start a website so you get an opportunity to write about playing guitar rather than practicing. If you’re serious about learning guitar please don’t fall into the same traps that I always do (listed above!). Find someone who can actually play guitar and ask for advice or find a website like JustinGuitar.</p>
