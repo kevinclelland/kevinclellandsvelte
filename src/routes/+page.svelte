@@ -31,9 +31,9 @@ function active() {
 		<header>
 			<div class="relative">
 				<img class="" src="/coverphoto2w.jpg" alt="me smiling at a pool" />
-				<button class="absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Artist</p></button>
+				<button class="absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified</p></button>
 				<h1 class="absolute font-bold text-5xl text-white bottom-20 left-5">Kevin Clelland</h1>
-				<h3 class="absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">53 monthly listeners</h3>
+				<h3 class="absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">5 Focus Areas</h3>
 				
 			</div>
 				
@@ -93,7 +93,7 @@ function active() {
 
 <h3 class="h3 p-4 font-semibold">On Tour</h3>
 
-<div class="flex px-4"><div class="p-2 px-4 text-2xl text-center rounded-md bg-gray-700/50"><div class="">Dec</div><div class="font-bold text-2xl">2008</div></div><div><div class="mx-4 text-2xl">Ballito</div><div class="mx-4 opacity-75">From 2008 to present</div></div></div>
+<div class="flex px-4"><div class="p-2 px-4 text-2xl text-center rounded-md bg-gray-700/50"><div class="">Dec</div><div class="font-bold text-2xl">2008</div></div><div><div class="mx-4 text-2xl">Ballito, South Africa</div><div class="mx-4 opacity-75">From 2008 to present</div></div></div>
 
 
 <h3 class="h3 p-4 font-semibold">About</h3>
@@ -101,10 +101,11 @@ function active() {
 	<img src="/coverphoto.jpg" alt="" class="rounded-lg grayscale brightness-50">
 	<div class="absolute text-lg font-semibold bottom-12 left-5 opacity-100 p-6">
 	<div class="italic">"I struggle at triathlon, photography, coding and guitar. Im good at my day job working in a bank."</div><br>
-	<div>My areas of focus are web development, not sucking at guitar and piano, taking more photos and training for Half-Ironman. In 2017 I self-published a book on Amazon about trying to qualify for World Triathlon Champs.</div><br>
+	<div>My areas of focus are web development, not sucking at guitar and piano, taking more photos and training for triathlon. In 2017 I self-published a book on Amazon about trying to qualify for World Triathlon Champs.</div><br>
 	<div>Im an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my “ledger of done”…and once its done who says it cant be made perfect.</div>
 </div>
 </div>
+<img src="/comic.jpg" class="p-4 card-hover" alt="">
 
 
 

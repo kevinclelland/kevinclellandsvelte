@@ -79,7 +79,7 @@
     
     
     
-        <div class="col-span-3 card card-hover overflow-hidden">
+        <div class="col-span-3 card overflow-hidden">
             <header>
                 <div class="relative">
                     <img class="" src="/coverphotography.png" alt="me smiling at a pool" />
@@ -96,13 +96,13 @@
             <h3 class="h3 p-4 font-semibold">Some Favourites</h3>
     
             
-            <div class="mx-auto text-token justify-items-center grid grid-cols-1 gap-4 p-4">
+            <div class="mx-auto justify-items-center grid grid-cols-1 gap-4 p-4">
     
                 {#each photos as {location}}
                     <div class="col-span-1 card card-hover overflow-hidden max-w-full">
-                        <header class="flex justify-around">
-                            <img src={location} class="max-w-fill" alt="Post" />
-                        </header>
+                        
+                            <img src={location} class="" alt="Post" />
+                       
                                    
                         
                     </div>
