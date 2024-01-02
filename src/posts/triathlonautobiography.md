@@ -3,8 +3,8 @@ title: Triathlon Autobiography
 description: My book I self published and released on Amazon.
 date: '2017-05-04'
 categories:
-  - 70.3
-  - World Champs
+  - eBook
+  - Amazon
 published: true
 avatar: '/headshot.jpg'
 user: Kevin Clelland
