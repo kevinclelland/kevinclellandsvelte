@@ -32,7 +32,7 @@
             <header>
                 <div class="relative">
                     <img class="" src="/covertri.png" alt="me smiling at a pool" />
-                    <button class="absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-black font-semibold mx-2">Verified Artist</p></button>
+                    <button class="absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-black font-semibold mx-2">Verified Age Grouper</p></button>
                     <h1 class="absolute font-bold text-5xl text-black bottom-20 left-5">Triathlon</h1>
                     <h3 class="absolute text-lg font-semibold text-black bottom-12 left-5 opacity-75 mx-1">13 projects</h3>
                     

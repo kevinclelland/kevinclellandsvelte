@@ -24,7 +24,7 @@ photo: '/bookcoverflat2.png'
 <p class="text-xl p-4">If you have read the book and would like to know how things ended (for now) you can read the ‘epilogue’ under the writing menu on this website.</p>
 
 
-<div class="flex grid grid-cols-1 mx-auto p-4 justify-items-center justify-center"><div class="col-span-1 p-4"><img src="/Sevens Fan.jpg"></div><div class="col-span-1 p-4"><img src="/Michael Fan.jpg"></div></div>
+<div class="flex p-4 mx-auto justify-center"><img src="/Sevens Fan.jpg" class="w-1/3 p-4"><img src="/Michael Fan.jpg" class="w-1/3 p-4"></div>
 
 
 </div>
