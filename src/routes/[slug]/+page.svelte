@@ -30,7 +30,7 @@
 
 <section class="py-5">
 	<h1 class="text-center font-serif text-7xl p-2">{data.meta.title}</h1>
-	<h1 class="mt-5 text-center font-serif text-4xl italic p-2">{data.meta.description}</h1>
+	<h1 class="mt-5 text-center font-serif text-4xl italic p-4 mb-4">{data.meta.description}</h1>
 	<img src="{data.meta.photo}" alt="Relevant graphic for the post" class="max-w-2xl mx-auto">
 </section>
 
