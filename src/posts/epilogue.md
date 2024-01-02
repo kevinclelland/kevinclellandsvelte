@@ -1,238 +1,56 @@
 ---
 title: Epilogue Triathlon Autobiography
 description: Quick update on how things conculuded
-date: '2020-03-02'
+date: '2017-12-24'
 categories:
-  - 70.3
-  - World Champs
+  - eBook
+  - Update
 published: true
 avatar: '/headshot.jpg'
 user: Kevin Clelland
 photo: '/bookcoverflat3.png'
 ---
 
-  <div class="mx-auto grid w-full max-w-7xl grid-cols-1 md:grid-cols-4 gap-4 p-4">
+ <div class="mx-auto grid w-full max-w-7xl grid-cols-1 md:grid-cols-4 gap-4 p-4">
 
-   <div class="col-span-2 p-4">
-    
-    <h1 class="m-auto my-5 text-center">Photo credit: Tom Schlegel</h1>
- 
-</div>
+
 
 <div class="col-span-2 p-4">
-<h1 class="text-center font-serif text-3xl font-bold italic">Introduction</h1>
 <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-<h1 class="text-center font-serif text-xl font-bold">Unaffiliated report as if written by Fred Funk.</h1>
+<h1 class="text-center font-serif text-xl font-bold">Earlier this year I self-published a book on Amazon about my experience as a triathlete trying to qualify for the national team. If you search my name on Amazon you can find it or click here. The My Book page on my website also has more details.</h1>
 <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-      <p class="font-sans first-letter:font-serif first-letter:text-3xl p-2">It was really great to come and see what Singapore is about and I've really enjoyed my time here.</p>
-      <p class="font-sans p-2">This race was always going to be tough with an insane group of swimmers. These PTO races are super competitive and a great opportunity to race the best and learn from the experience.</p>
-      <p class="font-sans p-2">Travelling with a two week old baby at home is a massive sacrifice for our family. It's been a bit of a whirlwind having just done the US Open, now the Asian Open and then off to Finland in just over a week for 70.3 World Champs.</p>
-</div>
 
-<div class="col-span-2 sm:col-span-1 p-4">
-   <h1 class="text-center font-serif text-3xl font-bold italic">The Tools</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-  
-   
-<table class="table">
-		<thead>
-			<tr>
-				<th>Category</th>
-				<th>Brand</th>
-			</tr>
-    </thead>
-    <tbody>
+<p class="text-xl p-4">I wrote the book for three main reasons: 1. Although I don’t profess to being particularly good at it, I enjoy writing. 2. I enjoy learning new things so found the process of self-publishing quite fascinating. 3. I had a lot of emotion after the race and felt I needed to put it down on paper. Sharing it with the world just happened to be a scary after-thought. Two Amazon reviews so far: a 5-star (must be family!) and a 1-star (ouch!).</p>
+<p class="text-xl p-4">At the time of writing I had just finished the qualifying race and had no idea as to whether I would be selected or not. The book therefore ended on a “cliff-hanger” — for lack of a better term.</p>
+<p class="text-xl p-4">Over the last few months I have had several people asking how things turned out or how the story ends. Instead of replying to each person I thought I would put this quick post together to tie-up the loose ends. If you would still like to read the book and don’t wan’t to know how it ends then please don’t carry on reading. As they say, “spoiler alert!”. So without any further waffling…</p>
 
-<tr>
-	<td>Trisuit</td>
-	<td>Castelli</td>
-</tr>
-		
-<tr>
-	<td>Wetsuit</td>
-	<td>Huub</td>
-</tr>
 
-<tr>
-	<td>Bike</td>
-	<td>Cube</td>
-</tr>
+<p class="text-4xl p-4">CHAPTER 19</p>
+<p class="text-xl p-4">The next few months after the race were terrible. Such a big part of me wanted to contact the selectors and proactively appeal any chance that I may not be selected. I had even spent hours in spreadsheets comparing my performance in the National champs relative to that of other competitors in various other races. I ended up with a rather comprehensive database of results which supported my qualitative feeling about how the race had gone. In almost every comparison, I was 30% slower on the swim, and around 15% slower on the run. Another part of me argued that past performances are all very well but you’re only as good as your last race. After “missing the break” in a cycling race, the cyclist doesn’t argue with the race officials that, based on past performances, he would have won the race if he hadn’t been found wanting when the race opened up.</p>
 
-<tr>
-	<td>Helmet</td>
-	<td>ABUS</td>
-</tr>
 
-<tr>
-	<td>Sunnies</td>
-	<td>NA</td>
-</tr>
+<p class="text-xl p-4">I mentioned in the book that I was struggling to decide if I deserved to go even though technically the top eight in each age-group could be eligible. Yes I came 8th — but I was still over 20 minutes slower than the leader. With that as context, i decided to not force things and see what happens.</p>
 
-<tr>
-	<td>Bike Shoes</td>
-	<td>DMT</td>
-</tr>
 
-<tr>
-	<td>Run Shoes</td>
-	<td>On</td>
-</tr>
+<p class="text-xl p-4">Not having every morning and afternoon already planned out for me was amazing. If I felt like running, then I would run. If I felt like running 10km, got halfway and decided I didn’t want to run anymore, then I stopped. No guilt, no explanation, no worries. I bought a decent second hand mountain bike and enjoyed riding without any aim, and more importantly, without fear of being hit by a car. I didn’t go near the indoor trainer and most certainly steered clear of that black line that resides at the bottom of the pool!</p>
 
-		
-</tbody>
-		
-</table>
 
-</div>
-  
-<div class="col-span-2 p-4">
-        <h1 class="text-center font-serif text-3xl font-bold italic">The Swim</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Alone and Behind</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-  <div>
-   <h1 class="text-center font-serif text-xl font-bold">Time: 00:23:09</h1>       
-   <p class="first-letter:font-serif first-letter:text-3xl">The swim is always going to be topical for me and there are always lots of haters insisting I'll never be successful with my relatively poor swim.</p>
-     <br />
-   <p>That being said, I feel I had a decent swim and swam to my current ability. Before the race I was rated second to last by tri-rating and I swam second to last. We had eight out of the top 10 swimmers here, with just Jan and Alisair missing, so I knew it was likely that I would be swimming alone with such a competitive field.</p>
-     <br />
-   <p>It was still very tough with the exceptionally hot water and mentally, it was a battle being so far behind the leaders. The crowd really picked me up in T1 and made a big difference to my state of mind.</p>
-   </div>
-  </div>
+<p class="text-xl p-4">It wasn’t always easy. Particularly because I had this nagging sense that I may still be selected to go to World Champs. If that happened, I would need to get into the shape of my life to vindicate my selection and have a race worthy of representing my country. Getting running fit is always the hardest and most precarious part. I recently read/heard something that 90% of Triathlon injuries are related to running. This is exactly my experience. I reasoned that if I could just keep ticking away at my run fitness then I would be able to jump straight into full on training at a moments notice.</p>
 
- </div>
 
-  <hr class="m-auto my-4 w-full border border-black/40" />
+<p class="text-xl p-4">One morning before work, my wife went to ride her horse and I was enjoying being lazy by lying in bed and tinkering on my laptop (YouTube etc.). At about 06:30 I got an excitable phone call from her. She was on her way back home after riding and had just checked her email: “Did you get it?!” she cross examined me. I was confused and said “get what?!”…she fired back “DID YOU GET THE EMAIL?! CHECK YOUR EMAIL!!!”. Now having been on my laptop for the better part of an hour I was up to date on my email and besides the usual social media fluff and online shopping ‘traps’, I didn’t have anything noteworthy. I had been dreading this scenario for months now — and I was right in the middle of it. My wife, being the super star that she is, had just received an email from the selectors asking her to represent our country at World Champs in Rotterdam. By contrast, I received an email from a retailer telling me that there’s a special on toasters. If I act quick I can get 30% off… “oh my souls joy!”</p>
 
-<div class="mx-auto grid w-full max-w-7xl md:grid-cols-4 grid-cols-1 gap-x-3 p-4">
- <article class="col-span-1">
-        <h1 class="text-center font-serif text-3xl font-bold italic">The Bike</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Hot Hot Hot</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <div>
-        <h1 class="text-center font-serif text-xl font-bold">Time: 01:55:13</h1>  
-   <p class="first-letter:font-serif first-letter:text-3xl">When I got onto the bike I knew it was time to get to work! I could see the packs working together and this is definitely a course where cycling with other athletes would help a lot.</p>
-    <br />
-   <p>I was still overheated after the swim! I think it took me about half of the bike to eventually get my core temperature down. There were two u-turns so I got to see my competitors often and I wasn't pulling back any time. I kept my baby boy and Lara in mind to give me strength during this tough time.</p>
-    <br />
-   <p>Eventually, I started to make up big time at about the 5th lap and I could see many athletes starting to come back to me. I suspect they all went too hard and were not paying the price.</p>
-   
- </div>
-</article>
-  
-<article class="col-span-2 p-3">
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mb-3 text-center font-serif text-6xl">Belief and Committment</h1>
 
-  <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        
-        <h1 class="m-auto my-5 text-center">Photo credit: Joel Reischmann</h1>
+<p class="text-xl p-4">We endured an awkward 3 minute conversation when she arrived home. Having had a few months to prepare for this moment made it easier to hide any emotion. I had my answer, it was the right answer. I must move on.</p>
 
-</article>
 
-<article class="col-span-1">
-        <h1 class="text-center font-serif text-3xl font-bold italic">The Run</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Hanging Tough</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <div>
-          <h1 class="text-center font-serif text-xl font-bold">Time: 01:12:20</h1>
-          <p class="first-letter:font-serif first-letter:text-3xl">I started the run in 9th place and quickly set my goal: let me match what I did in the PTO US open and get into the top 5.</p>
-          <br />
-          <p>Jason West sped out of transition and I was already about 20s behind him! By about 6km I had already caught a few guys. I could just see Daniel Baekkegard ahead. I've had many tough battles against him so I knew it was going to be difficult to catch him.</p>
-          <br />
-          <p>Unfortunately I had a severe stomach cramp on the last lap possibly from dehydration. I had to try every trick in the book to stop the cramping and not walk.</p>
-          <br />
-          <p>It came right but as I had passed Daniel I had Denis Chevrot speed past me! I stuck with him as long as I could but had to settle for 5th.</p>
-         
-        </div>
-      </article>
+<p class="text-xl p-4">What does “moving on” look like? I exercise almost every day. I’ve entered a few races in 2018. I’m able to fit in a few hours learning to code a week. We’ve bought land and will be starting to build a house in early 2018. We bought a bunny called Mr. Wazoogles. I’m constantly a week away from messaging my coach and telling him i’m ready to try again.</p>
 
-   </div>
+<img src="/wazoogles.jpeg">
 
-<hr class="m-auto my-4 w-full border border-black/40" />
+<p class="text-xl p-4">Mr Wazoogles helping his dad code</p>
 
-<div class="mx-auto grid grid-cols-3 gap-4 w-full max-w-7xl">
 
-<div class="col-span-3">
-<h1 class="text-center font-serif text-3xl font-bold italic">Closing Thoughts</h1>
-</div>
-
-<div class="col-span-1 sm:col-span-1">
-<hr class="m-auto my-4 w-[150px] border-2 border-black" />
-  <h1 class="mt-3 text-center text-xl font-bold italic">General Satisfaction</h1>
-  <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-
- <div class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">Overall I think I am satisfied. I've never been out of the top 10 at a PTO Open so that record stays intact. Essentially I moved up fron 19th to 5th over the bike and run. I'm going to keep the humiliation of being along at the back in the swim close to my heart in the coming months to motivate me.</div>
-</div>
-
-<div class="col-span-1 sm:col-span-1">
-<hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">What Went Well</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
- <p class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">My believe and committment made me really proud during what was a tough race and many moments where I could have "given up" the fight. I felt I showed courage lining up against the best swimmers with no place to hide.</p>
-</div>
-
-<div class="col-span-1 sm:col-span-1">
-<hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Need to do better</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
- <p class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">I'm working really hard on my swim and I want to be better but it is going to take a long time. I need to get into the front pack and once I'm there then the whole racing dynamic will change!</p>
-</div>
-
-</div>
-
-  <hr class="m-auto my-4 w-full border border-black/40" />
-
-<div class="mx-auto grid w-full  md:grid-cols-1 grid-cols-1 gap-x-3 p-4">
-
-<div class="col-span-1 mx-auto">
-
-<h1 class="text-center font-serif text-3xl font-bold italic p-4">Results</h1>
-</div>
-<div class="col-span-1 max-w-2xl mx-auto">
-  <div class="table-container">
-	<!-- Native Table Element -->
-	<table class="table text-xl">
-		<thead>
-			<tr>
-				<th>Category</th>
-				<th>Result</th>
-			
-</tr>
-</thead>
-<tbody>
-
-<tr>
-	<td>Overall Time</td>
-	<td>03:33:25</td>
-</tr>
-		
-<tr>
-	<td>Overall Position</td>
-	<td>2</td>
-</tr>
-
-<tr>
-	<td>Swim Time</td>
-	<td>00:23:09</td>
-</tr>
-
-<tr>
-	<td>Bike Time</td>
-	<td>01:55:13</td>
-</tr>
-
-<tr>
-	<td>Run Time</td>
-	<td>01:12:20</td>
-</tr>
-		
-</tbody>
-		
-</table>
-</div>
 
 </div>
 </div>

@@ -3,8 +3,8 @@ title: Best Springsteen Songs
 description: The best Bruce Springsteen songs according to me - and why I love them.
 date: '2020-03-17'
 categories:
-  - 70.3
-  - World Champs
+  - Blog
+  - Music
 published: true
 avatar: '/headshot.jpg'
 user: Kevin Clelland
