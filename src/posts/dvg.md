@@ -3,8 +3,8 @@ title: Donovan van Gelder
 description: Interview with a Triathlon legend.
 date: '2020-03-21'
 categories:
-  - 70.3
-  - World Champs
+  - Interview
+  - Triathlete
 published: true
 avatar: '/headshot.jpg'
 user: Kevin Clelland

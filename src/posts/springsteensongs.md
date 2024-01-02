@@ -13,226 +13,55 @@ photo: '/bruce.jpg'
 
   <div class="mx-auto grid w-full max-w-7xl grid-cols-1 md:grid-cols-4 gap-4 p-4">
 
-   <div class="col-span-2 p-4">
-    
-    <h1 class="m-auto my-5 text-center">Photo credit: Tom Schlegel</h1>
- 
-</div>
+
 
 <div class="col-span-2 p-4">
-<h1 class="text-center font-serif text-3xl font-bold italic">Introduction</h1>
 <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-<h1 class="text-center font-serif text-xl font-bold">Unaffiliated report as if written by Fred Funk.</h1>
+<h1 class="text-center font-serif text-xl font-bold">Bruce Springsteen is arguably one of the most influential artists of our time. According to Wikipedia he has sold more than 135 million records worldwide. I have been obsessed with him for 14 years which is admittedly short given that his first album was released in 1973! That being said he has had a massive impact on my life and is easily my favorite artist.<br><br>This post highlights my 5 best Bruce Springsteen songs with details as to why I love them so much.</h1>
 <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-      <p class="font-sans first-letter:font-serif first-letter:text-3xl p-2">It was really great to come and see what Singapore is about and I've really enjoyed my time here.</p>
-      <p class="font-sans p-2">This race was always going to be tough with an insane group of swimmers. These PTO races are super competitive and a great opportunity to race the best and learn from the experience.</p>
-      <p class="font-sans p-2">Travelling with a two week old baby at home is a massive sacrifice for our family. It's been a bit of a whirlwind having just done the US Open, now the Asian Open and then off to Finland in just over a week for 70.3 World Champs.</p>
-</div>
+<h1 class="text-4xl p-4 text-center">MY TOP 5</h1>
+<p class="text-4xl p-4">5. TENTH AVENUE FREEZE-OUT (ALBUM: BORN TO RUN, 1975)</p>
+<p class="text-xl p-4">Searching for the deeper meaning behind this song will leave you wanting. Springsteen has mentioned that even he doesn’t know! One thing that’s clear is that it’s an epic tale of the forming of the famous E Street Band. The elaboration of this theme in the ‘Live in NYC’ album is what made this song special for me. In this 16 minute version Bruce uses the opportunity to introduce the members of the band one by one. All pretty standard until he gets to introducing his wife, Patti Scialfa. He recruits the crowd in a call-and- response chant where he jumps into the song “Red Headed Woman”. After several requests saying he’s looking for a red headed woman, the music stops and Patti steps up to the mic with a few lines of her signature haunting and beautiful voice. Goosebumps.<br><br>Just as it feels as though Springsteen has pulled off something quite magic he takes it up a notch. He starts to introduce his legendary saxophonist, Clarence Celmons. After lyrically whipping the crowd into a frenzy he jumps back into the original song with the lyrics “…well they made the change in time and the big man joined the band!”</p>
 
-<div class="col-span-2 sm:col-span-1 p-4">
-   <h1 class="text-center font-serif text-3xl font-bold italic">The Tools</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-  
-   
-<table class="table">
-		<thead>
-			<tr>
-				<th>Category</th>
-				<th>Brand</th>
-			</tr>
-    </thead>
-    <tbody>
+<p class="text-4xl p-4">4. JUNGLELAND (ALBUM: BORN TO RUN, 1975)</p>
+<p class="text-xl p-4">In 2010 a friend and I were driving to the beach to go surf on a beautiful summers day. Casual conversation turned serious when he asked: “If you could play one Springsteen song to a non-fan which one would it be?”. For the next 5 minutes I launched into a monologue about the greatness of Jungleland – an epic anthem that touches on every emotion. The song starts with a beautiful violin but takes a turn of pace when the piano takes over. The next 9 minutes of the song take you from roaring and exalted highs to the deepest and most reflective lows.<br><br>The best way to sum up this song is with some lyrics: “Barefoot girls sitting on the hood of a Dodge drinking warm beer in the soft summer rain.” Poetic, emotive and romantically real.</p>
 
-<tr>
-	<td>Trisuit</td>
-	<td>Castelli</td>
-</tr>
-		
-<tr>
-	<td>Wetsuit</td>
-	<td>Huub</td>
-</tr>
+<p class="text-4xl p-4">3. WRECKING BALL (ALBUM: WRECKING BALL, 2012)</p>
+<p class="text-xl p-4">Given Springsteen’s rich history it seems ignorant to have one of his more recent tracks in my list. I think the context of this being here is his “return to form” for me. I lapped up most of his older songs with a preference towards the more rousing and upbeat numbers. Before this album, the last one I really bought into was “The Rising” in 2002. Yes it was on the pop side but it still spoke to me. I tried hard to convince myself that I loved the subsequent albums but I knew I was fooling myself.<br><br>Wrecking Ball came out in 2012 and I nervously fired up my iTunes account, paid my money and waited while the files transferred onto my iPod Classic. With my headphones on and my eyes closed (the best way to listen to an album for the first time), the first few notes of “We Take Care of Our Own” got my feet tapping and made me realize I was in for a treat. Finally! An album I can get obsessed about again! To be honest there are a number of songs from this album that could be substituted in here but I went with the title track “Wrecking Ball”.<br><br>Bruce wrote the song in response to his beloved home stadium (the Giants Stadium in New Jersey) being demolished. According to wikipedia he played 24 shows there over 24 years. That’s where the song hits home for me…it puts you in the shoes of someone facing the inevitable change and loss of being human. What makes it special, though, is that it meets the challenge head on and taunts the would-be antagonist to, quite literally, bring on your wrecking ball. It’s a stirring song full of sentimentality that can easily be the soundtrack for many a struggle all of us are bound to come up against.</p>
 
-<tr>
-	<td>Bike</td>
-	<td>Cube</td>
-</tr>
+<p class="text-4xl p-4">2. BORN TO RUN (ALBUM: BORN TO RUN, 1975)</p>
+<p class="text-xl p-4">With my list being dominated by the Born to Run album I run the risk of coming across as a one-album fan! I assure you that this list hasn’t been put together in a hurry and has been carefully considered. I’m sure this song will be at the top of many a list and is impossible for me to omit. Personally, the whole weight of this song delivers a punch way heavier than it’s musical prowess. I like the song and I know that the musical concepts and layers upon layers of guitars are beyond my comprehension. What rather throws this song into number two on my list is the unforgettable memory I have when I first saw it live.<br><br>The year was 2008 and I had the opportunity to see Springsteen live at the Emirates stadium in London. As a Springsteen concert virgin I showed up wearing my E Street Band merchandise armed with many hours under my belt of watching the “Live in NYC” and “Live in Barcelona” DVD’s. I fitted right in with the stalwarts. Until quite close to the end when the house lights suddenly came on, Bruce let out a roar, Max Weinberg ripped into the drums and the thunderous guitars followed suit. No darkness to hide in.<br><br>The realization that I was watching Bruce Springsteen performing Born to Run live was too much for me. My act was up and I revealed myself to be the newbie that I was so desperately hiding. At first it started with a quiver in my bottom lip that got progressively more violent. With my lip shaking uncontrollably, my eyes started to well up and after a few seconds turned into and full on public display of sobbing! Shamed and shocked I glanced around the stadium at the strange faces and met eyes with a grey haired stalwart about 10 meters away. He looked me straight in the eyes and gave me a nod to acknowledge the pilgrimage I was going through. Enough said.</p>
 
-<tr>
-	<td>Helmet</td>
-	<td>ABUS</td>
-</tr>
+<hr>
+<h1 class="text-4xl p-4 text-center">HONORABLE MENTIONS</h1>
+<p class="text-xl p-4">Here are some honorable mentions before I get to my number one:</p>
 
-<tr>
-	<td>Sunnies</td>
-	<td>NA</td>
-</tr>
+<p class="text-4xl p-4">ROSALITA (ALBUM: THE WILD, THE INNOCENT AND THE E STREET SHUFFLE, 1973)</p>
+<p class="text-xl p-4">Musical chaos – that’s how I would describe this song. Initially I found it difficult to follow and listen to and ignored it for years. Luckily, I gave it some time and now it’s easily one of my favorites. I have a live bootleg version where he shouts in the introduction “For my mother…the greatest love song I ever wrote!” Similar to Born to Run, the song is about rising above preconceptions and expectations. Mirroring the start of Romeo and Juliet it tells the tale of Rosalita who is seemingly banned from seeing her wannabe rock-star (crossed) lover. Rather than tragedy, Springsteen sings about making a success of his music career and reads an ultimatum to Rosie to run away with him beyond the chains of her domestic life.</p>
 
-<tr>
-	<td>Bike Shoes</td>
-	<td>DMT</td>
-</tr>
+<p class="text-4xl p-4">BADLANDS (ALBUM: DARKNESS ON THE EDGE OF TOWN, 1978)</p>
+<p class="text-xl p-4">Another powerful track. This song first became special to me when watching the “Live in Barcelona” DVD. Those Spaniards are a passionate Nation! In 2008, it rocketed up my list of favorites when I found my way sitting in a similar crowd of Spaniards in the Camp Nou stadium in Barcelona. Worth stating that the stadium capacity is just shy of 100,000! That evening was full of many highlights but after watching the DVD I was desperately hoping that Badlands would make its way into the set list.<br><br>It did and it did not disappoint! The crowd roared through every chorus as if it was their national duty. At about the same time the full moon drifted over the stadium to see what all the fuss was about. An out of this world atmosphere for a spiritual rock anthem that talks of rising above.</p>
 
-<tr>
-	<td>Run Shoes</td>
-	<td>On</td>
-</tr>
+<p class="text-4xl p-4">OUT IN THE STREET (ALBUM: THE RIVER, 1980)</p>
+<p class="text-xl p-4">Personally, this is the ultimate song of freedom. In 2008 I put my cheap suit on every day, squeezed myself onto public transport, sat at my desk in a bank for 12 hours before reversing the process. Often, just as I rolled out of the over-crammed subway station, I used to play this song. “When I’m out in the street, I walk the way I want to walk!”</p>
 
-		
-</tbody>
-		
-</table>
+<p class="text-4xl p-4">THUNDER ROAD (ALBUM: BORN TO RUN, 1975)</p>
+<p class="text-xl p-4">Yet another Born to Run song but this is definitive Springsteen. In fact, this song should hold the top place of many a list. The imagery is exceptionally powerful right from the opening line. Springsteen is often revered as a songwriter, but it feels as though his song writing is especially strong here. I’m immediately reminded of Robert James Waller’s Bridges of Madison County with the two sharing the same heavy, nostalgic and desperate themes. There are many moments of relief, especially early on when Springsteen sings: “Hey what else can we do now? Except roll down the window and let the wind blow back your hair.”</p>
 
-</div>
-  
-<div class="col-span-2 p-4">
-        <h1 class="text-center font-serif text-3xl font-bold italic">The Swim</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Alone and Behind</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-  <div>
-   <h1 class="text-center font-serif text-xl font-bold">Time: 00:23:09</h1>       
-   <p class="first-letter:font-serif first-letter:text-3xl">The swim is always going to be topical for me and there are always lots of haters insisting I'll never be successful with my relatively poor swim.</p>
-     <br />
-   <p>That being said, I feel I had a decent swim and swam to my current ability. Before the race I was rated second to last by tri-rating and I swam second to last. We had eight out of the top 10 swimmers here, with just Jan and Alisair missing, so I knew it was likely that I would be swimming alone with such a competitive field.</p>
-     <br />
-   <p>It was still very tough with the exceptionally hot water and mentally, it was a battle being so far behind the leaders. The crowd really picked me up in T1 and made a big difference to my state of mind.</p>
-   </div>
-  </div>
+<hr>
+<p class="text-xl p-4">That brings us back to the list and to my number 1:</p>
 
- </div>
+<p class="text-4xl p-4">1. NO SURRENDER (ALBUM: BORN IN THE USA, 1984)</p>
+<p class="text-4xl p-4">“WELL WE MADE A PROMISE WE SWORE WE’D ALWAYS REMEMBER, NO RETREAT, BABY, NO SURRENDER…”</p>
+<p class="text-xl p-4">This has become an anthem for my wife and I and was specifically chosen to feature during our wedding. The lyrics act as a personal challenge to keep moving forward no matter the issues we encounter.<br><br>There’s a live version from London where Bruce calls Brian Fallon from Gaslight Anthem onto stage to perform with him. The two take turns singing different lines with the guest struggling to hide his enthusiasm. Appearing like a giddy schoolboy for most of the song he seems to be overcome with emotion and almost tamed into submission when he sings “I want to sleep beneath peaceful skies in my lover’s bed. With a wide-open country in my eyes and these romantic dreams in my head.”<br><br>Like so many others, the song is filled with nostalgia yet empowers the listener to grow young, defend their dreams, not retreat…and NEVER SURRENDER.</p>
 
-  <hr class="m-auto my-4 w-full border border-black/40" />
+<img src="/diyposter.jpg">
+<p class="text-xl p-4">A poster I made that hangs in our house containing lyrics from No Surrender.</p>
+<p class="text-xl p-4">I hope you enjoyed sharing this list and don’t feel too upset about any of your favorites being left out. Let me know what you think and what your best Bruce Springsteen songs are.</p>
 
-<div class="mx-auto grid w-full max-w-7xl md:grid-cols-4 grid-cols-1 gap-x-3 p-4">
- <article class="col-span-1">
-        <h1 class="text-center font-serif text-3xl font-bold italic">The Bike</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Hot Hot Hot</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <div>
-        <h1 class="text-center font-serif text-xl font-bold">Time: 01:55:13</h1>  
-   <p class="first-letter:font-serif first-letter:text-3xl">When I got onto the bike I knew it was time to get to work! I could see the packs working together and this is definitely a course where cycling with other athletes would help a lot.</p>
-    <br />
-   <p>I was still overheated after the swim! I think it took me about half of the bike to eventually get my core temperature down. There were two u-turns so I got to see my competitors often and I wasn't pulling back any time. I kept my baby boy and Lara in mind to give me strength during this tough time.</p>
-    <br />
-   <p>Eventually, I started to make up big time at about the 5th lap and I could see many athletes starting to come back to me. I suspect they all went too hard and were not paying the price.</p>
-   
- </div>
-</article>
-  
-<article class="col-span-2 p-3">
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mb-3 text-center font-serif text-6xl">Belief and Committment</h1>
 
-  <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        
-        <h1 class="m-auto my-5 text-center">Photo credit: Joel Reischmann</h1>
 
-</article>
 
-<article class="col-span-1">
-        <h1 class="text-center font-serif text-3xl font-bold italic">The Run</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Hanging Tough</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <div>
-          <h1 class="text-center font-serif text-xl font-bold">Time: 01:12:20</h1>
-          <p class="first-letter:font-serif first-letter:text-3xl">I started the run in 9th place and quickly set my goal: let me match what I did in the PTO US open and get into the top 5.</p>
-          <br />
-          <p>Jason West sped out of transition and I was already about 20s behind him! By about 6km I had already caught a few guys. I could just see Daniel Baekkegard ahead. I've had many tough battles against him so I knew it was going to be difficult to catch him.</p>
-          <br />
-          <p>Unfortunately I had a severe stomach cramp on the last lap possibly from dehydration. I had to try every trick in the book to stop the cramping and not walk.</p>
-          <br />
-          <p>It came right but as I had passed Daniel I had Denis Chevrot speed past me! I stuck with him as long as I could but had to settle for 5th.</p>
-         
-        </div>
-      </article>
-
-   </div>
-
-<hr class="m-auto my-4 w-full border border-black/40" />
-
-<div class="mx-auto grid grid-cols-3 gap-4 w-full max-w-7xl">
-
-<div class="col-span-3">
-<h1 class="text-center font-serif text-3xl font-bold italic">Closing Thoughts</h1>
-</div>
-
-<div class="col-span-1 sm:col-span-1">
-<hr class="m-auto my-4 w-[150px] border-2 border-black" />
-  <h1 class="mt-3 text-center text-xl font-bold italic">General Satisfaction</h1>
-  <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-
- <div class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">Overall I think I am satisfied. I've never been out of the top 10 at a PTO Open so that record stays intact. Essentially I moved up fron 19th to 5th over the bike and run. I'm going to keep the humiliation of being along at the back in the swim close to my heart in the coming months to motivate me.</div>
-</div>
-
-<div class="col-span-1 sm:col-span-1">
-<hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">What Went Well</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
- <p class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">My believe and committment made me really proud during what was a tough race and many moments where I could have "given up" the fight. I felt I showed courage lining up against the best swimmers with no place to hide.</p>
-</div>
-
-<div class="col-span-1 sm:col-span-1">
-<hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Need to do better</h1>
-        <hr class="m-auto my-4 w-[150px] border-2 border-black" />
- <p class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">I'm working really hard on my swim and I want to be better but it is going to take a long time. I need to get into the front pack and once I'm there then the whole racing dynamic will change!</p>
-</div>
-
-</div>
-
-  <hr class="m-auto my-4 w-full border border-black/40" />
-
-<div class="mx-auto grid w-full  md:grid-cols-1 grid-cols-1 gap-x-3 p-4">
-
-<div class="col-span-1 mx-auto">
-
-<h1 class="text-center font-serif text-3xl font-bold italic p-4">Results</h1>
-</div>
-<div class="col-span-1 max-w-2xl mx-auto">
-  <div class="table-container">
-	<!-- Native Table Element -->
-	<table class="table text-xl">
-		<thead>
-			<tr>
-				<th>Category</th>
-				<th>Result</th>
-			
-</tr>
-</thead>
-<tbody>
-
-<tr>
-	<td>Overall Time</td>
-	<td>03:33:25</td>
-</tr>
-		
-<tr>
-	<td>Overall Position</td>
-	<td>2</td>
-</tr>
-
-<tr>
-	<td>Swim Time</td>
-	<td>00:23:09</td>
-</tr>
-
-<tr>
-	<td>Bike Time</td>
-	<td>01:55:13</td>
-</tr>
-
-<tr>
-	<td>Run Time</td>
-	<td>01:12:20</td>
-</tr>
-		
-</tbody>
-		
-</table>
-</div>
 
 </div>
 </div>
