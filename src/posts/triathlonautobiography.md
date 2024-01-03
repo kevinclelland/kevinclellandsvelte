@@ -8,7 +8,7 @@ categories:
 published: true
 avatar: '/headshot.jpg'
 user: Kevin Clelland
-photo: '/bookcoverflat2.png'
+photo: '/bookcoverflat2.jpg'
 ---
 
  <div class="mx-auto grid w-full max-w-7xl grid-cols-1 md:grid-cols-4 gap-4 p-4">
