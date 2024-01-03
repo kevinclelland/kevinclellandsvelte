@@ -26,10 +26,10 @@
     {location: "/gallery/22.jpg"},
     {location: "/gallery/23.jpg"},
     {location: "/gallery/24.jpg"},
-    {location: "/gallery/25.jpg"},
-    {location: "/gallery/26.jpg"},
+    
+    
     {location: "/gallery/27.jpg"},
-    {location: "/gallery/28.jpg"},
+    
     {location: "/gallery/29.jpg"},
     {location: "/gallery/30.jpg"},
     {location: "/gallery/31.jpg"},
@@ -54,10 +54,10 @@
     {location: "/gallery/50.jpg"},
     {location: "/gallery/51.jpg"},
     {location: "/gallery/52.jpg"},
-    {location: "/gallery/53.jpg"},
+    
     {location: "/gallery/54.jpg"},
     {location: "/gallery/55.jpg"},
-    {location: "/gallery/56.jpg"},
+    
     {location: "/gallery/57.jpg"},
     {location: "/gallery/58.jpg"},
     {location: "/gallery/59.jpg"},
@@ -99,10 +99,10 @@
             <h3 class="h3 p-4 font-semibold">Some Favourites</h3>
     
             
-            <div class="mx-auto justify-items-center grid grid-cols-1 gap-4 p-4">
+            <div class="mx-auto justify-items-center bg-white grid grid-cols-1 gap-4 p-4">
     
                 {#each photos as {location}}
-                    <div class="col-span-1 card card-hover overflow-hidden max-w-full">
+                    <div class="col-span-1 card card-hover overflow-hidden max-w-full shadow-xl">
                         
                             <img src={location} class="" alt="Post" />
                        
