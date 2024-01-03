@@ -1,3 +1,9 @@
+<script lang="ts">
+import { RangeSlider } from '@skeletonlabs/skeleton';
+let value = 0.28;
+let max = 3.33;
+</script>
+
 <footer class="bg-surface-100-800-token">
 <!-- play bar -->
 <div class="w-full flex items-center justify-between px-3 bg-light border-t border-dark" style="height: 12vh;">
@@ -22,14 +28,10 @@
         <button class="mx-5 text-lightest hover:text-white"><i class="material-icons text-lg">repeat</i></button>
       </div>
       <div class="w-full flex items-center justify-center mt-3">
-        <p class="text-xs text-lightest mr-2">0:28</p>
-        <div class="w-full h-1 bg-slate-800 rounded-full flex items-center">
-          <div class="h-1 rounded-full bg-green-600" style="width: 18%;">
-          </div>
-          <div class="h-3 w-3 bg-white rounded-full -ml-1 shadow">
-          </div>
-        </div>
-        <p class="text-xs text-lightest ml-2">3:33</p>
+        <p class="text-xs text-lightest mr-2">{value}</p>
+        <RangeSlider name="range-slider" class="w-full" bind:value={value} max={max} step={0.01}></RangeSlider>
+        
+        <p class="text-xs text-lightest ml-2">{max}</p>
       </div>
     </div>
 
