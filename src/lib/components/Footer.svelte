@@ -8,7 +8,7 @@ let max = 3.33;
 <!-- play bar -->
 <div class="w-full flex items-center justify-between px-3 bg-light border-t border-dark" style="height: 12vh;">
     <div class="flex items-center">
-      <div class="relative mx-2 w-20 h-20">
+      <div class="relative mx-2 w-14 md:w-20  h-14 md:h20">
       <img src="/a2.jpg" alt="Offspring smash album cover">
     </div>
       <div>
@@ -21,11 +21,11 @@ let max = 3.33;
 
     <div class="flex flex-col justify-center w-1/3 items-center">
       <div class="flex items-center">
-        <button class="mx-5 text-lightest hover:text-white"><i class="material-icons text-lg">shuffle</i></button>
+        <button class="hidden sm:block mx-5 text-lightest hover:text-white"><i class="material-icons text-lg">shuffle</i></button>
         <button class="text-lightest hover:text-white"><i class="material-icons text-lg">skip_previous</i></button>
         <button class="rounded-full h-10 w-10 flex items-center justify-center mx-5 border-lightest border text-lightest hover:text-white"><i class="material-icons">pause</i></button>
         <button class="text-lightest hover:text-white"><i class="material-icons text-lg">skip_next</i></button>
-        <button class="mx-5 text-lightest hover:text-white"><i class="material-icons text-lg">repeat</i></button>
+        <button class="hidden sm:block mx-5 text-lightest hover:text-white"><i class="material-icons text-lg">repeat</i></button>
       </div>
       <div class="w-full flex items-center justify-center mt-3">
         <p class="text-xs text-lightest mr-2">{value}</p>
@@ -35,7 +35,7 @@ let max = 3.33;
       </div>
     </div>
 
-    <div class="flex items-center">
+    <div class="sm:flex items-center hidden">
       <i class="material-icons text-xl text-lightest hover:text-white">volume_up</i>
       <div class="h-20 w-1 mx-2 bg-lightest rounded-full hover:bg-white"></div>
     </div>
