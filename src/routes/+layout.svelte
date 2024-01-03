@@ -5,7 +5,9 @@
 	import Menu from '$lib/components/Menu.svelte';
 	import Menumobile from '$lib/components/Menumobile.svelte';
 
+	import PageTransition from './transition.svelte';
 
+	export let data;
 </script>
 
 
@@ -17,7 +19,9 @@
 	<svelte:fragment slot="pageHeader"><div class="md:hidden"><Menumobile /></div></svelte:fragment>
 	<!-- Router Slot -->
 	
-			<slot />
+	<PageTransition url={data.url}>
+		<slot />
+	</PageTransition>
 	
 	<!-- ---- / ---- -->
 	<!-- (pageFooter) -->
