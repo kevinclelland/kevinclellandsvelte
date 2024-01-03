@@ -32,11 +32,14 @@
             <header>
                 <div class="relative">
                     <img class="" src="/covernow.png" alt="me smiling at a pool" />
-                    <button class="absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Squirrel</p></button>
-                    <h1 class="absolute font-bold text-5xl text-white bottom-20 left-5">Now</h1>
-                    <h3 class="absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">6 Focus areas</h3>
+                    <button class="hidden sm:block absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Squirrel</p></button>
+                    <h1 class="hidden sm:block absolute font-bold text-5xl text-white bottom-20 left-5">Now</h1>
+                    <h3 class="hidden sm:block absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">6 Focus areas</h3>
                     
                 </div>
+                <button class="sm:hidden flex items-center justify-start opacity-75 hover:opacity-100 px-2" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Squirrel</p></button>
+                    <h1 class="sm:hidden font-bold text-5xl text-white px-2">Now</h1>
+                    <h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">6 Focus areas</h3>
                     
             </header>
     

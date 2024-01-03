@@ -83,11 +83,14 @@
             <header>
                 <div class="relative">
                     <img class="" src="/coverphotography.png" alt="me smiling at a pool" />
-                    <button class="absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Hobbyist</p></button>
-                    <h1 class="absolute font-bold text-5xl text-white bottom-20 left-5">Photography</h1>
-                    <h3 class="absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">3 cameras - 20 years</h3>
+                    <button class="hidden sm:block bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Hobbyist</p></button>
+                    <h1 class="hidden sm:block font-bold text-5xl text-white bottom-20 left-5">Photography</h1>
+                    <h3 class="hidden sm:block text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">3 cameras - 20 years</h3>
                     
                 </div>
+                <button class="sm:hidden flex items-center justify-start opacity-75 hover:opacity-100 px-2" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Hobbyist</p></button>
+                    <h1 class="sm:hidden font-bold text-5xl text-white px-2">Photography</h1>
+                    <h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">3 cameras - 20 years</h3>
                     
             </header>
     
