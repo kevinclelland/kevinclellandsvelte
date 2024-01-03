@@ -23,24 +23,14 @@
 	  <p class="text-lg text-white font-semibold">Home</p>
 	</a>
 	</button>
-	<button class="flex items-center justify-start opacity-75 hover:opacity-100 mx-3">
-	  <i class="material-icons mr-2">search</i>
-	  <p class="text-lg text-white font-semibold">Search</p>
-	</button>
-</div>
-</div>
-
-
-<div class="card card-hover col-span-2">
-	<h3 class="p-2 h3"><i class="material-icons mr-3">library_music</i> Your Library</h3>
 	<div class="m-4">
 		<span class="badge variant-filled mx-1">Playlists</span><span class="badge variant-filled-surface mx-1">Albums</span><span class="badge variant-filled-surface mx-1">Artists</span>
 	</div> 
-
+</div>
 </div>
 
 </div>
-
+<h3 class="px-4 h3"><i class="material-icons mr-3">library_music</i> Your Library</h3>
 <div class="mx-auto text-token grid grid-cols-2 w-screen gap-2 p-4">
 
 	
