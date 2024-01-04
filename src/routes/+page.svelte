@@ -1,5 +1,5 @@
 <script lang="ts">
-
+import * as config from '$lib/config';
 let followingStatus :String = "Following";
 function follow() {
 	if (followingStatus == "Follow") {
@@ -21,6 +21,9 @@ function active() {
 };
 
 </script>
+<svelte:head>
+	<title>{config.title}</title>
+</svelte:head>
 
 <div class="mx-auto grid grid-cols-1 gap-4 p-4">
 
