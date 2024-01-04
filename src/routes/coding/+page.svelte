@@ -56,8 +56,8 @@ let albums = [
 					</header>
 					<div class="p-4 space-y-4">
 						<h3 class="h3">{albumname}</h3>
-						<p>{date}</p>
-						<p>{albumartist}</p>
+						<p>Date: {date}</p>
+						<p>Theme: {albumartist}</p>
 						<p>{description}</p>
 
 					</div>
