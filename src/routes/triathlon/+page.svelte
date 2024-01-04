@@ -39,7 +39,7 @@
                 </div>
                 <button class="sm:hidden text-white px-2 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Age Grouper</p></button>
                     <h1 class="sm:hidden text-white px-2 font-bold text-5xl">Triathlon</h1>
-                    <h3 class="sm:hidden text-white px-2 text-lg font-semibold opacity-75 mx-1">13 projects</h3>
+                    <h3 class="sm:hidden text-white px-2 text-lg font-semibold opacity-75 mx-1">Since 2003</h3>
                     
             </header>
     
@@ -227,10 +227,15 @@
 <h3 class="h3 p-4 font-semibold">On Training</h3>
 <div class="px-4 max-w-2xl relative card-hover">
 	<img src="/trainerphoto.jpg" alt="" class="rounded-lg grayscale brightness-50">
-	<div class="absolute text-lg font-semibold bottom-20 left-5 opacity-100 p-6">
+	<div class="hidden lg:block absolute text-lg font-semibold bottom-20 left-5 opacity-100 p-6">
 	<div class="italic">“It is simply that we can all be good boys and wear our letter sweaters around and get our little degrees and find some nice girl to settle, you know, down with…Or we can blaze! Become legends in our own time, strike fear in the heart of mediocre talent everywhere! We can scald dogs, put records out of reach! Make the stands gasp as we blow into an unearthly kick from three hundred yards out! We can become God’s own messengers delivering the dreaded scrolls! We can race dark Satan himself till he wheezes fiery cinders down the back straightaway….They’ll speak our names in hushed tones, ‘those guys are animals’ they’ll say! We can lay it on the line, bust a gut, show them a clean pair of heels. We can sprint the turn on a spring breeze and feel the winter leave our feet! We can, by God, let our demons loose and just wail on!”</div><br>
 	
 </div>
+</div>
+
+<div class="lg:hidden text-lg font-semibold opacity-100 p-6">
+	<div class="italic">“It is simply that we can all be good boys and wear our letter sweaters around and get our little degrees and find some nice girl to settle, you know, down with…Or we can blaze! Become legends in our own time, strike fear in the heart of mediocre talent everywhere! We can scald dogs, put records out of reach! Make the stands gasp as we blow into an unearthly kick from three hundred yards out! We can become God’s own messengers delivering the dreaded scrolls! We can race dark Satan himself till he wheezes fiery cinders down the back straightaway….They’ll speak our names in hushed tones, ‘those guys are animals’ they’ll say! We can lay it on the line, bust a gut, show them a clean pair of heels. We can sprint the turn on a spring breeze and feel the winter leave our feet! We can, by God, let our demons loose and just wail on!”</div>
+	
 </div>
                 
     
