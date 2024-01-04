@@ -1,24 +1,23 @@
 <script lang="ts">
 import { RangeSlider } from '@skeletonlabs/skeleton';
-let value = 0.00;
+let valueseconds = 0;
 
-let max = 3.33;
 
 let interval: string | number | NodeJS.Timeout | undefined;
 let isPlaying = "play_arrow";
 
 function increaseValue() {
   interval = setInterval(() => {
-    value += 0.01;
+    valueseconds += 1;
   }, 1000);
 }
 
 function playing() {
-  //increaseValue();
-  //if (value > max) {
-  //  clearInterval(interval);
-  //  value = 0.00;
-  //}
+  increaseValue();
+  if (valueseconds > songs[songselection].max) {
+    clearInterval(interval);
+    valueseconds = 0;
+  }
   if (isPlaying == "play_arrow") {
     isPlaying = "pause";
   } else {
@@ -31,21 +30,21 @@ function playing() {
 }
 
 let songs = [
-    {photo: "/a2.jpg", songname: "Genocide", artist: "The Offspring", max: "3.33",},
-    {photo: "/a1.jpg", songname: "The Psychic", artist: "Crash Test Dummies", max: "3.50",},
-    {photo: "/a3.jpg", songname: "Saints and Sailors", artist: "Dashboard Confessional", max: "2.33",},
-    {photo: "/a4.jpg", songname: "Blinded", artist: "Third Eye Blind", max: "3.33",},
-    {photo: "/a5.jpg", songname: "Believe", artist: "K's Choice", max: "3.33",},
-    {photo: "/a1.jpg", songname: "God Shuffled His Feet", artist: "Crash Test Dummies", max: "3.33",},
-    {photo: "/a2.jpg", songname: "Self Esteem", artist: "The Offspring", max: "3.33",},
-    {photo: "/a6.jpg", songname: "Mutt", artist: "Blink 182", max: "3.33",},
-    {photo: "/a7.jpg", songname: "Some Sort of Grace", artist: "Shotgun Tori", max: "3.33",},
-    {photo: "/a8.jpg", songname: "Just", artist: "Henry Ate", max: "3.33",},
-    {photo: "/a9.jpg", songname: "Overweight", artist: "Blue October", max: "3.33",},
-    {photo: "/a10.jpg", songname: "Defying Gravity", artist: "Wicked", max: "3.33",},
-    {photo: "/a11.jpg", songname: "Born to Run", artist: "Bruce Springsteen", max: "3.33",},
-    {photo: "/a12.jpg", songname: "Head Over Feet", artist: "Alanis Morissette", max: "3.33",},
-    {photo: "/a13.jpg", songname: "The Blower's Daughter", artist: "Damien Rice", max: "3.33",},
+    {photo: "/a2.jpg", songname: "Genocide", artist: "The Offspring", max: 213,},
+    {photo: "/a1.jpg", songname: "The Psychic", artist: "Crash Test Dummies", max: 230,},
+    {photo: "/a3.jpg", songname: "Saints and Sailors", artist: "Dashboard Confessional", max: 153,},
+    {photo: "/a4.jpg", songname: "Blinded", artist: "Third Eye Blind", max: 213,},
+    {photo: "/a5.jpg", songname: "Believe", artist: "K's Choice", max: 213,},
+    {photo: "/a1.jpg", songname: "God Shuffled His Feet", artist: "Crash Test Dummies", max: 213,},
+    {photo: "/a2.jpg", songname: "Self Esteem", artist: "The Offspring", max: 213,},
+    {photo: "/a6.jpg", songname: "Mutt", artist: "Blink 182", max: 213,},
+    {photo: "/a7.jpg", songname: "Some Sort of Grace", artist: "Shotgun Tori", max: 213,},
+    {photo: "/a8.jpg", songname: "Just", artist: "Henry Ate", max: 213,},
+    {photo: "/a9.jpg", songname: "Overweight", artist: "Blue October", max: 213,},
+    {photo: "/a10.jpg", songname: "Defying Gravity", artist: "Wicked", max: 213,},
+    {photo: "/a11.jpg", songname: "Born to Run", artist: "Bruce Springsteen", max: 213,},
+    {photo: "/a12.jpg", songname: "Head Over Feet", artist: "Alanis Morissette", max: 213,},
+    {photo: "/a13.jpg", songname: "The Blower's Daughter", artist: "Damien Rice", max: 213,},
 
     ]
 
@@ -93,10 +92,10 @@ let songs = [
         <button class="hidden sm:block mx-5 text-lightest hover:text-white"><i class="material-icons text-lg">repeat</i></button>
       </div>
       <div class="w-full flex items-center justify-center mt-3">
-        <p class="text-xs text-lightest mr-2">{value}</p>
-        <RangeSlider name="range-slider" class="w-full" bind:value={value} max={max} step={0.01}></RangeSlider>
+        <p class="text-xs text-lightest mr-2">{Math.floor(valueseconds/60)}:{valueseconds % 60}</p>
+        <RangeSlider name="range-slider" class="w-full" bind:value={valueseconds} max={ songs[songselection].max } step={1}></RangeSlider>
         
-        <p class="text-xs text-lightest ml-2">{max}</p>
+        <p class="text-xs text-lightest ml-2">{Math.floor(songs[songselection].max/60)}:{songs[songselection].max % 60}</p>
       </div>
     </div>
 
