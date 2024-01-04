@@ -95,7 +95,7 @@ function active() {
 
 <h3 class="h3 p-4 font-semibold">About</h3>
 <div class="px-4 max-w-3xl relative card-hover">
-	<img src="/coverphoto.jpg" alt="" class="rounded-lg grayscale brightness-50">
+	<img src="/coverphoto.webp" alt="" class="rounded-lg grayscale brightness-50">
 	<div class="hidden lg:block absolute text-lg font-semibold bottom-12 left-5 opacity-100 p-6">
 	<div class="italic">"I struggle at triathlon, photography, coding and guitar. Im good at my day job working in a bank."</div><br>
 	<div>My areas of focus are web development, not sucking at guitar and piano, taking more photos and training for triathlon. In 2017 I self-published a book on Amazon about trying to qualify for World Triathlon Champs.</div><br>
@@ -107,7 +107,7 @@ function active() {
 	<div>My areas of focus are web development, not sucking at guitar and piano, taking more photos and training for triathlon. In 2017 I self-published a book on Amazon about trying to qualify for World Triathlon Champs.</div><br>
 	<div>Im an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my “ledger of done”…and once its done who says it cant be made perfect.</div>
 </div>
-<img src="/comic.jpg" class="p-4 card-hover" alt="">
+<img src="/comic.webp" class="p-4 card-hover" alt="">
 
 
 
