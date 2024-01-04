@@ -30,7 +30,7 @@ let albums = [
 	<div class="col-span-3 card card-hover overflow-hidden">
 		<header>
 			<div class="relative">
-				<img class="" src="/covercoding2.jpg" alt="me smiling at a pool" />
+				<img class="" src="/covercoding2.webp" alt="me smiling at a pool" />
 				<button class="hidden sm:flex absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Self Learner</p></button>
 				<h1 class="hidden sm:block absolute font-bold text-5xl text-white bottom-20 left-5">Coding</h1>
 				<h3 class="hidden sm:block absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">13 projects - 6 years</h3>
