@@ -7,7 +7,7 @@
 		{ avatar: '8vKVlNIbAc4', icon:'📸', name: 'Photography', label: 'Some of my favourite photos', link: 'photography' },
 		{ avatar: '8vKVlNIbAc4', icon:'🧪', name: 'Projects', label: 'Random Rabbit Holes', link: 'projects' },
 		//{ avatar: '8vKVlNIbAc4', icon:'🎸', name: 'Music', label: 'The record company Rosie, gave me a big advance', link: 'music' },
-		{ avatar: '8vKVlNIbAc4', icon:'⏳️', name: 'Now', label: 'What Im up to now', link: 'now' }
+		{ avatar: '8vKVlNIbAc4', icon:'⏳️', name: 'Now', label: 'What I am up to now', link: 'now' }
 	];
 
 </script>
@@ -37,19 +37,22 @@
 		<span class="badge variant-filled mx-1">Playlists</span><span class="badge variant-filled-surface mx-1">Albums</span><span class="badge variant-filled-surface mx-1">Artists</span>
 	</div> 
 
-<dl class="list-dl">
 	{#each listData as v}
-		<div>
-			<span class="p-2 text-2xl rounded-md bg-sky-500/25">{v.icon}</span>
-			<a href="/{v.link}">
-				<span class="flex-auto">
-					<dt class="font-bold">{v.name}</dt>
-					<dd class="text-sm opacity-50">{v.label}</dd>
-				</span></a
-			>
+	<a href="/{v.link}">
+		<div class="p-2 col-span-1 flex">
+			
+			<div class="p-2 text-2xl rounded-md bg-sky-500/25">{v.icon}</div>
+			
+				<div class="flex-auto place-self-center">
+					<div class="font-bold px-2">{v.name}</div>
+					<div class="text-sm px-2 opacity-50">{v.label}</div>
+				</div>
+			
 		</div>
+	</a>
 	{/each}
-</dl>
+
+
 </div>
 
 </div>
