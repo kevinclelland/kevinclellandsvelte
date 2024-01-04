@@ -31,7 +31,7 @@
                 </div>
                 <button class="sm:hidden flex items-center justify-start opacity-75 hover:opacity-100 px-2" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Squirrel</p></button>
                     <h1 class="sm:hidden font-bold text-5xl text-white px-2">Now</h1>
-                    <h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">6 Focus areas</h3>
+                    <h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">6 Focus items</h3>
                     
             </header>
     
