@@ -20,6 +20,8 @@ function active() {
 	
 };
 
+export let data: string;
+
 </script>
 <svelte:head>
 	<title>{config.title}</title>
@@ -87,6 +89,8 @@ function active() {
 	
 	</table>
 </div>
+
+
 
 <h3 class="h3 p-4 font-semibold">On Tour</h3>
 
