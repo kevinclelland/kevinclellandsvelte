@@ -52,7 +52,7 @@
                     <img class="" src="/covertri.webp" alt="me smiling at a pool" />
                     <button class="hidden sm:flex absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-black font-semibold mx-2">Verified Age Grouper</p></button>
                     <h1 class="hidden sm:block absolute font-bold text-5xl text-black bottom-20 left-5">Triathlon</h1>
-                    <h3 class="hidden sm:block absolute text-lg font-semibold text-black bottom-12 left-5 opacity-75 mx-1">13 projects</h3>
+                    <h3 class="hidden sm:block absolute text-lg font-semibold text-black bottom-12 left-5 opacity-75 mx-1">Since 2003</h3>
                     
                 </div>
                 <button class="sm:hidden text-white px-2 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Age Grouper</p></button>

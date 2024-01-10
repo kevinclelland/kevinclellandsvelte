@@ -52,7 +52,7 @@ let songs = [
  
  function nextsong() {
      songselection = songselection + 1;
-     if (songselection > 6) {
+     if (songselection > 5) {
          songselection = 0;
      }
     
@@ -61,13 +61,13 @@ let songs = [
  function previoussong() {
      songselection = songselection - 1;
      if (songselection < 0) {
-         songselection = 6;
+         songselection = 5;
      }
      
  }
 
  const listData = [
-		{ avatar: 'YOErFW8AfkI', icon:'❤️', name: 'Liked Songs', label: 'Playlist - 90 songs', link: 'likedsongs', max: 213, },
+		//{ avatar: 'YOErFW8AfkI', icon:'❤️', name: 'Liked Songs', label: 'Playlist - 90 songs', link: 'likedsongs', max: 213, },
 		{ avatar: 'YOErFW8AfkI', icon:'💻️', name: 'Coding', label: 'Coding Graveyard', link: 'coding', max: 230, },
 		{ avatar: 'YOErFW8AfkI', icon:'👟', name: 'Triathlon', label: 'Tri race results', link: 'triathlon', max: 153, },
 		{ avatar: 'z_X0PxmBuIQ', icon:'✍️', name: 'Writing', label: 'My book and Blog', link: 'writing', max: 217, },

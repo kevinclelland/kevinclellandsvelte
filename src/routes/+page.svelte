@@ -20,9 +20,10 @@ function active() {
 	
 };
 
-export let data: string;
+export let data: any;
 
 </script>
+
 <svelte:head>
 	<title>{config.title}</title>
 </svelte:head>
@@ -54,43 +55,57 @@ export let data: string;
 		
 		</div>
 
-		<h3 class="h3 p-4 font-semibold">Popular</h3>
-
+		<h3 class="h3 px-4 font-semibold">Popular</h3>
+		<div class="px-4 p-2 opacity-75">Albums - Last 30 days</div>
 		
 
-
-		
-<!-- Responsive Container (recommended) -->
-<div class="table-container">
 	<!-- Native Table Element -->
 	<table class="table table-compact table-hover">
-		
-		<tbody>
+		<thead class="">
+			<tr>
+				<th>#</th>
+				<th>Album</th>
+				<th class="collapse lg:visible">Artist</th>
+				<th class="collapse lg:visible">Playcount</th>
+			</tr>
+		</thead>
+
+		<tbody class="">
 			
-				<tr>
-					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">1</div><img src="/a1.jpg" class="max-h-14 mx-2" alt=""><div class="mx-2 text-lg">Afternoons & Coffeespoons</div></div></td>
+				<tr class="items-center">
+					<td class="items-center"><div class="items-center"><div class="mx-2 text-lg opacity-75">1</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[0].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[0].name}</div></div></td>
+					<td class="collapse lg:visible text-lg">{data.albums[0].artist.name}</td>
+					<td class="collapse lg:visible text-lg">{data.albums[0].playcount}</td>
 				</tr>
 				<tr>
-					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">2</div><img src="/a2.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Self Esteem</div></div></td>
-					
+					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">2</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[1].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[1].name}</div></div></td>
+					<td class="collapse lg:visible">{data.albums[1].artist.name}</td>
+					<td class="collapse lg:visible">{data.albums[1].playcount}</td>
 				</tr>
 				<tr>
-					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">3</div><img src="/a3.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Saints and Sailors</div></div></td>
+					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">3</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[2].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[2].name}</div></div></td>
+					<td class="collapse lg:visible">{data.albums[2].artist.name}</td>
+					<td class="collapse lg:visible">{data.albums[2].playcount}</td>
 				</tr>
 				<tr>
-					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">4</div><img src="/a4.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Blinded</div></div></td>
-					
+					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">4</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[3].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[3].name}</div></div></td>
+					<td class="collapse lg:visible">{data.albums[3].artist.name}</td>
+					<td class="collapse lg:visible">{data.albums[3].playcount}</td>
 				</tr>
 				<tr>
-					<td><div class="flex items-center"><div class="mx-2 text-lg opacity-75">5</div><img src="/a5.jpg" class="max-h-14 m-0 mx-2" alt=""><div class="mx-2 text-lg">Believe</div></div></td>
+					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">5</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[4].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[4].name}</div></div></td>
+					<td class="collapse lg:visible">{data.albums[4].artist.name}</td>
+					<td class="collapse lg:visible">{data.albums[4].playcount}</td>
 				</tr>
 			
 		</tbody>
 	
 	</table>
-</div>
-
-
 
 <h3 class="h3 p-4 font-semibold">On Tour</h3>
 
