@@ -28,7 +28,7 @@ export let data: any;
 	<title>{config.title}</title>
 </svelte:head>
 
-<div class="mx-auto grid grid-cols-1 p-4">
+<div class="mx-auto grid grid-cols-1 p-2">
 
 
 
