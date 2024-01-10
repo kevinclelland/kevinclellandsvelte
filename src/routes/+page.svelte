@@ -36,7 +36,7 @@ export let data: any;
 	<div class="col-span-3 card card-hover overflow-hidden">
 		<header>
 			<div class="relative">
-				<img class="" src="/coverphoto2w.webp" width="1852" height="544" alt="me smiling at a pool" />
+				<img class="sm:hidden" src="/coverphoto2wsm.webp" width="1852" height="544" alt="me smiling at a pool" /><img class="hidden sm:block" src="/coverphoto2w.webp" width="1852" height="544" alt="me smiling at a pool" />
 				<button class="hidden sm:flex absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified</p></button>
 				<h1 class="hidden sm:block absolute font-bold text-5xl text-white bottom-20 left-5">Kevin Clelland</h1>
 				<h3 class="hidden sm:block absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">5 Focus Areas</h3>

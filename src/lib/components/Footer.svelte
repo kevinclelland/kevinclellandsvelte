@@ -81,7 +81,7 @@ let songs = [
 
 <footer class="bg-surface-100-800-token">
 <!-- play bar -->
-<div class="w-full flex items-center justify-between px-1 sm:px-3 bg-light border-t border-dark" style="height: 12vh;">
+<div class="w-full flex items-center justify-between px-1 sm:px-3 bg-light border-t border-dark min-h-24" style="height: 12vh;">
 
   <div class="p-2 col-span-1 flex min-w-44 md:min-w-60">
 			
