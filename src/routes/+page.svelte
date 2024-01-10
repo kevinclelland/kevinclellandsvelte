@@ -28,7 +28,7 @@ export let data: any;
 	<title>{config.title}</title>
 </svelte:head>
 
-<div class="mx-auto grid grid-cols-1 gap-4 p-4">
+<div class="mx-auto grid grid-cols-1 p-4">
 
 
 
@@ -60,13 +60,13 @@ export let data: any;
 		
 
 	<!-- Native Table Element -->
-	<table class="table table-compact table-hover">
+	<table class="table table-compact table-hover m-4 w-11/12">
 		<thead class="">
 			<tr>
 				<th>#</th>
 				<th>Album</th>
-				<th class="collapse lg:visible">Artist</th>
-				<th class="collapse lg:visible">Playcount</th>
+				<th class="hidden lg:table-cell">Artist</th>
+				<th class="hidden lg:table-cell">Playcount</th>
 			</tr>
 		</thead>
 
@@ -74,33 +74,33 @@ export let data: any;
 			
 				<tr class="items-center">
 					<td class="items-center"><div class="items-center"><div class="mx-2 text-lg opacity-75">1</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[0].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[0].name}</div></div></td>
-					<td class="collapse lg:visible text-lg">{data.albums[0].artist.name}</td>
-					<td class="collapse lg:visible text-lg">{data.albums[0].playcount}</td>
+					<td><div class="flex items-left"><img src="{data.albums[0].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-48 lg:max-w-none truncate">{data.albums[0].name}</div></div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[0].artist.name}</div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[0].playcount}</div></td>
 				</tr>
 				<tr>
 					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">2</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[1].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[1].name}</div></div></td>
-					<td class="collapse lg:visible">{data.albums[1].artist.name}</td>
-					<td class="collapse lg:visible">{data.albums[1].playcount}</td>
+					<td><div class="flex items-left"><img src="{data.albums[1].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[1].name}</div></div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[1].artist.name}</div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[1].playcount}</div></td>
 				</tr>
 				<tr>
 					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">3</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[2].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[2].name}</div></div></td>
-					<td class="collapse lg:visible">{data.albums[2].artist.name}</td>
-					<td class="collapse lg:visible">{data.albums[2].playcount}</td>
+					<td><div class="flex items-left"><img src="{data.albums[2].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[2].name}</div></div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[2].artist.name}</div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[2].playcount}</div></td>
 				</tr>
 				<tr>
 					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">4</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[3].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[3].name}</div></div></td>
-					<td class="collapse lg:visible">{data.albums[3].artist.name}</td>
-					<td class="collapse lg:visible">{data.albums[3].playcount}</td>
+					<td><div class="flex items-left"><img src="{data.albums[3].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[3].name}</div></div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[3].artist.name}</div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[3].playcount}</div></td>
 				</tr>
 				<tr>
 					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">5</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[4].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt=""><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[4].name}</div></div></td>
-					<td class="collapse lg:visible">{data.albums[4].artist.name}</td>
-					<td class="collapse lg:visible">{data.albums[4].playcount}</td>
+					<td><div class="flex items-left"><img src="{data.albums[4].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[4].name}</div></div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[4].artist.name}</div></td>
+					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[4].playcount}</div></td>
 				</tr>
 			
 		</tbody>
@@ -114,8 +114,8 @@ export let data: any;
 
 <h3 class="h3 p-4 font-semibold">About</h3>
 <div class="px-4 max-w-3xl relative card-hover">
-	<img src="/coverphoto.webp" alt="" class="rounded-lg grayscale brightness-50">
-	<div class="hidden lg:block absolute text-lg font-semibold bottom-12 left-5 opacity-100 p-6">
+	<img src="/coverphoto.webp" alt="Me standing with my wife" class="rounded-lg grayscale brightness-60 lg:brightness-50">
+	<div class="hidden lg:block absolute text-lg font-semibold bottom-1 left-5 opacity-100 p-6">
 	<div class="italic">"I struggle at triathlon, photography, coding and guitar. Im good at my day job working in a bank."</div><br>
 	<div>My areas of focus are web development, not sucking at guitar and piano, taking more photos and training for triathlon. In 2017 I self-published a book on Amazon about trying to qualify for World Triathlon Champs.</div><br>
 	<div>Im an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my “ledger of done”…and once its done who says it cant be made perfect.</div>
@@ -134,10 +134,3 @@ export let data: any;
 
 </div>
 
-<style>
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-</style>
