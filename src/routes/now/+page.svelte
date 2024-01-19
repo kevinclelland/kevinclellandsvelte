@@ -7,7 +7,7 @@
     {theme: "Web Dev", what: "Aero Oats", description: "Update for new season", timeline: "Dependent on PTO"},
     {theme: "Web Dev", what: "Afternoons Coffeespoons", description: "Rebuild using Sveltekit", timeline: "Mid Jan 2024"},
     {theme: "Writing", what: "Humphrey and Hunter", description: "Add Karkloof article", timeline: "End Jan 2024"},
-    {theme: "Triathlon", what: "KZN Tri Champs", description: "Get some panic training done", timeline: "24 Jan 2024"},
+    {theme: "Triathlon", what: "KZN Tri Champs", description: "Get some panic training done", timeline: "21 Jan 2024"},
     {theme: "Music", what: "Piano Lessons", description: "Re-engage with the Pianote lessons", timeline: "End Jan 2024"},
     
     ]
