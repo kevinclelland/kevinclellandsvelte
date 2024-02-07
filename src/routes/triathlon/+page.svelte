@@ -4,7 +4,7 @@
 
     let races = [
     {racedate: "02 Jun 2024", racelogo: "/703logo.jpg", racename: "Durban 70.3", raceresult: "Upcoming", racetime: "Upcoming"},
-    {racedate: "24 Jan 2024", racelogo: "/otherlogo.jpg", racename: "KZN Tri Champs", raceresult: "Upcoming", racetime: "Upcoming"},
+    {racedate: "21 Jan 2024", racelogo: "/otherlogo.jpg", racename: "KZN Tri Champs", raceresult: "5th 40-44, 29th Overall", racetime: "02:39:36"},
     {racedate: "19 Nov 2023", racelogo: "/tinmanlogo.jpg", racename: "Tinman 10km run", raceresult: "1st 34-39, 4th Overall", racetime: "00:49:30"},
     {racedate: "06 Aug 2023", racelogo: "/ultralogo.jpg", racename: "Durban Ultra Sprint", raceresult: "3rd 34-39, 13th Overall", racetime: "01:20:18"},
     {racedate: "12 Mar 2023", racelogo: "/tinmanlogo.jpg", racename: "Tinman Challenge", raceresult: "5th 34-39, 14th Overall", racetime: "02:26:15"},
