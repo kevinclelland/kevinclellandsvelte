@@ -45,7 +45,8 @@ let birds = [
 	{ birdphoto: "/birds/46.jpg", birdname: "Red-Billed Quelea. Breeding male center" },
 	{ birdphoto: "/birds/47.jpg", birdname: "Dusky Indigobird" },
 	{ birdphoto: "/birds/48.jpg", birdname: "Southern Red Bishop" },
-	{ birdphoto: "/birds/49.jpg", birdname: "Thick billed weaver." }
+	{ birdphoto: "/birds/49.jpg", birdname: "Thick billed weaver." },
+	{ birdphoto: "/birds/50.jpg", birdname: "Golden Tailed Woodpecker." }
 ];
 
 
