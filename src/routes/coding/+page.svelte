@@ -2,6 +2,7 @@
 import Play from "$lib/components/Play.svelte";
 
 let albums = [
+{albumcover: "/mockups/founditmockup.webp", albumname: "Foundit", albumartist: "Student App", link: "https://getfoundit.app/", description: "Building a student app for Stellenbosch. Partnered with a student currently studying there. Leaning into AI hard to build within 2 months. NextJS, TailwindCSS with Supabase. CapacitorJS for native. Very steep learning curve to get native apps published on the respective app stores within a short time frame.", date: "2025",},
 {albumcover: "/mockups/aomockup.webp", albumname: "Aero Oats", albumartist: "Triathlon Tools", link: "https://aerooats.com/", description: "The home of my Triathlon newsletter. First Sveltkit, TailwindCSS and Skeleton project. Lots of little JS calculators and tools. Used RSS to pull in news and my newlstter posts.", date: "2023",},
 {albumcover: "/mockups/ssmockup.webp", albumname: "Sanele Shange", albumartist: "Triathlete", link: "https://saneleshange.com/", description: "Quick Sveltkit site for talented and up and coming triathlete", date: "2023",},
 {albumcover: "/mockups/pomockup.webp", albumname: "Product Owner Guide", albumartist: "Product Owner", link: "https://productowner.guide/", description: "Use Astro framework to build somewhat of an “Indie Hackers” inspired website to help a Product Owner get up to speed with their career. Used AI to write several blog posts but project just parked until I have some more time.", date: "2023",},
@@ -33,12 +34,12 @@ let albums = [
 				<img class="" src="/covercoding2.webp" alt="me smiling at a pool" />
 				<button class="hidden sm:flex absolute bottom-32 left-5 flex items-center justify-start opacity-75 hover:opacity-100" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Self Learner</p></button>
 				<h1 class="hidden sm:block absolute font-bold text-5xl text-white bottom-20 left-5">Coding</h1>
-				<h3 class="hidden sm:block absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">13 projects - 6 years</h3>
+				<h3 class="hidden sm:block absolute text-lg font-semibold text-white bottom-12 left-5 opacity-75 mx-1">16 projects - 8 years</h3>
 				
 			</div>
 			<button class="sm:hidden flex items-center justify-start opacity-75 hover:opacity-100 px-2" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Self Learner</p></button>
 			<h1 class="sm:hidden font-bold text-5xl text-white px-2">Coding</h1>
-			<h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">13 projects - 6 years</h3>
+			<h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">16 projects - 8 years</h3>
 				
 		</header>
 

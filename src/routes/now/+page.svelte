@@ -6,7 +6,8 @@
     //{theme: "Web Dev", what: "Homebru Computer Club", description: "Fun pointless site inspired by the Homebrew Computer Club", timeline: "June 2024"},
     //{theme: "Web Dev", what: "The Greeters Guild", description: "Another pointless but fun project inspired by the comedy of Troy Hawke", timeline: "June 2024"},
 //{theme: "Web Dev", what: "Next JS", description: "Getting more familiar with Next to assess switching from Svelte", timeline: "April/May 2024"},
-    {theme: "Triathlon", what: "Ironman South Africa", description: "Start training for IMSA.", timeline: "04 November 2024"},
+    {theme: "Health", what: "Basic Strength Training", description: "Pausing my triathlon training to reset the body and focus on strength training and mobility.", timeline: "01 January 2025"},
+    {theme: "Coding", what: "Foundit", description: "Building a web and native app for Stellenbosch students..", timeline: "December 2024 - Present"},
     //{theme: "Music", what: "Guitar", description: "Very casually learning My Hero by The Foo Fighters", timeline: "April 2024"},
     
     ]
@@ -30,14 +31,14 @@
                 </div>
                 <button class="sm:hidden flex items-center justify-start opacity-75 hover:opacity-100 px-2" ><span class="material-icons text-sky-600 text-2xl mxr-4">verified</span> <p class="text-lg text-white font-semibold mx-2">Verified Squirrel</p></button>
                     <h1 class="sm:hidden font-bold text-5xl text-white px-2">Now</h1>
-                    <h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">1 Focus items</h3>
+                    <h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">2 Focus items</h3>
                     
             </header>
     
             <Play />
     
             <h3 class="h3 p-4 font-semibold">What I'm up to currently</h3>
-            <h3 class="h4 px-4 font-semibold">Last Udated: October 2024</h3>
+            <h3 class="h4 px-4 font-semibold">Last Udated: February 2025</h3>
             <div class="grid md:grid-cols-3">
             {#each items as {theme, what, description, timeline}}
             <div class="p-4 m-4 md:col-span-1 card card-hover overflow-hidden w-auto shadow-xl border">
@@ -47,7 +48,7 @@
                     <div>Theme: {theme}</div>
                     <div>What: {what}</div>
                     <div>Description: {description}</div>
-                    <div>Deadline: {timeline}</div>
+                    <div>Timeline: {timeline}</div>
                 </div>
             </div>
             </div>
