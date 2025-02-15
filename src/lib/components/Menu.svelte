@@ -1,4 +1,7 @@
 <script lang="ts">
+	import Search from '$lib/components/Search.svelte';
+	let showSearch = false;
+	
 	const listData = [
 		//{ avatar: 'YOErFW8AfkI', icon:'❤️', name: 'Liked Songs', label: 'Playlist - 90 songs', link: 'likedsongs' },
 		{ avatar: 'YOErFW8AfkI', icon:'💻️', name: 'Coding', label: 'Coding Graveyard', link: 'coding' },
@@ -23,7 +26,10 @@
 	  <p class="text-lg text-white font-semibold">Home</p>
 	</a>
 	</button>
-	<button class="flex items-center justify-start opacity-75 hover:opacity-100">
+	<button 
+		class="flex items-center justify-start opacity-75 hover:opacity-100"
+		on:click={() => showSearch = true}
+	>
 	  <i class="material-icons mr-3">search</i>
 	  <p class="text-lg text-white font-semibold">Search</p>
 	</button>
@@ -56,3 +62,5 @@
 </div>
 
 </div>
+
+<Search bind:isOpen={showSearch} />
