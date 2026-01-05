@@ -429,16 +429,16 @@ function truncateDescription(description: string, maxLength: number = 120): stri
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
 				{#each filteredProjects as project (project.albumcover)}
 				<button
-					class="card overflow-hidden text-left transition-transform hover:scale-105 {project.status === 'Discontinued' ? 'opacity-60' : 'card-hover'}"
+					class="card overflow-hidden text-left transition-transform hover:scale-105 {project.status === 'Discontinued' ? 'opacity-60' : 'card-hover'} flex flex-col"
 					on:click={() => openProjectModal(project)}
 					aria-label="View details for {project.albumname}"
 				>
-					<div class="relative">
+					<div class="relative bg-surface-900 flex items-center justify-center p-6" style="min-height: 280px;">
 						<img
 							src={project.albumcover}
-							alt="{project.albumname} project mockup"
+							alt="{project.albumname} floppy disc mockup"
 							loading="lazy"
-							class="w-full aspect-video object-cover"
+							class="w-full h-auto object-contain max-h-[260px]"
 						/>
 						<div class="absolute top-2 right-2 flex gap-1">
 							<span class="badge {getStatusColor(project.status)} text-xs flex items-center gap-1">
@@ -455,13 +455,13 @@ function truncateDescription(description: string, maxLength: number = 120): stri
 						</div>
 						{/if}
 					</div>
-					<div class="p-4 space-y-2">
+					<div class="p-4 space-y-2 flex-1 flex flex-col">
 						<div class="flex items-start justify-between gap-2">
 							<h3 class="font-bold text-lg leading-tight">{project.albumname}</h3>
 							<span class="badge variant-ghost-surface text-xs shrink-0">{project.date}</span>
 						</div>
 						<p class="text-xs opacity-75 font-semibold">{project.albumartist}</p>
-						<p class="text-sm opacity-75 line-clamp-3">{truncateDescription(project.description)}</p>
+						<p class="text-sm opacity-75 line-clamp-3 flex-1">{truncateDescription(project.description)}</p>
 						<div class="flex flex-wrap gap-1 pt-2">
 							{#each project.technologies.slice(0, 3) as tech}
 							<span class="badge variant-soft-primary text-xs">{tech}</span>
@@ -501,11 +501,11 @@ function truncateDescription(description: string, maxLength: number = 120): stri
 	tabindex="-1"
 >
 	<div class="card max-w-4xl w-full max-h-[90vh] overflow-y-auto">
-		<div class="relative">
+		<div class="relative bg-surface-900 p-8 flex items-center justify-center">
 			<img
 				src={selectedProject.albumcover}
-				alt="{selectedProject.albumname} project mockup"
-				class="w-full max-h-[50vh] object-contain bg-surface-900"
+				alt="{selectedProject.albumname} floppy disc mockup"
+				class="w-full max-h-[50vh] object-contain"
 			/>
 			<button
 				class="btn-icon variant-filled-surface absolute top-4 right-4"
