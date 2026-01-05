@@ -101,10 +101,10 @@
             
             <div class="mx-auto justify-items-center bg-white grid grid-cols-1 gap-4 p-4">
     
-                {#each photos as {location}}
+                {#each photos as {location}, index}
                     <div class="col-span-1 card card-hover overflow-hidden max-w-full shadow-xl">
                         
-                            <img src={location} class="" alt="Post" />
+                            <img src={location} class="" alt="Photography gallery image {index + 1}" loading="lazy" />
                        
                                    
                         

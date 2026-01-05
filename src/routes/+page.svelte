@@ -71,31 +71,31 @@ export let data: any;
 			
 				<tr class="items-center">
 					<td class="items-center"><div class="items-center"><div class="mx-2 text-lg opacity-75">1</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[0].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-48 lg:max-w-none truncate">{data.albums[0].name}</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[0].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="{data.albums[0].name} album artwork" loading="lazy"><div class="mx-2 text-lg max-w-48 lg:max-w-none truncate">{data.albums[0].name}</div></div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[0].artist.name}</div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[0].playcount}</div></td>
 				</tr>
 				<tr>
 					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">2</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[1].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[1].name}</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[1].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="{data.albums[1].name} album artwork" loading="lazy"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[1].name}</div></div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[1].artist.name}</div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[1].playcount}</div></td>
 				</tr>
 				<tr>
 					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">3</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[2].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[2].name}</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[2].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="{data.albums[2].name} album artwork" loading="lazy"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[2].name}</div></div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[2].artist.name}</div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[2].playcount}</div></td>
 				</tr>
 				<tr>
 					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">4</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[3].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[3].name}</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[3].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="{data.albums[3].name} album artwork" loading="lazy"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[3].name}</div></div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[3].artist.name}</div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[3].playcount}</div></td>
 				</tr>
 				<tr>
 					<td><div class="items-center"><div class="mx-2 text-lg opacity-75">5</div></div></td>
-					<td><div class="flex items-left"><img src="{data.albums[4].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="album artwork"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[4].name}</div></div></td>
+					<td><div class="flex items-left"><img src="{data.albums[4].image[1]['#text']}" class="max-h-14 mx-2 min-w-14 min-h-14" alt="{data.albums[4].name} album artwork" loading="lazy"><div class="mx-2 text-lg max-w-44 lg:max-w-none truncate">{data.albums[4].name}</div></div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[4].artist.name}</div></td>
 					<td class="hidden lg:table-cell"><div class="text-lg">{data.albums[4].playcount}</div></td>
 				</tr>
@@ -113,15 +113,15 @@ export let data: any;
 <div class="px-4 max-w-3xl relative card-hover">
 	<img src="/coverphoto.webp" alt="Me standing with my wife" class="rounded-lg grayscale brightness-60 lg:brightness-50">
 	<div class="hidden lg:block absolute text-lg font-semibold bottom-1 left-5 opacity-100 p-6">
-	<div class="italic">"I struggle at triathlon, photography, coding and guitar. Im good at my day job working in a bank."</div><br>
+	<div class="italic">"I struggle at triathlon, photography, coding and guitar. I'm good at my day job working in a bank."</div><br>
 	<div>My areas of focus are web development, not sucking at guitar and piano, taking more photos and training for triathlon. In 2017 I self-published a book on Amazon about trying to qualify for World Triathlon Champs.</div><br>
-	<div>Im an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my "ledger of done"...and once its done who says it cant be made perfect.</div>
+	<div>I'm an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my "ledger of done"...and once it's done who says it can't be made perfect.</div>
 </div>
 </div>
 <div class="lg:hidden text-lg font-semibold opacity-100 p-6">
-	<div class="italic">"I struggle at triathlon, photography, coding and guitar. Im good at my day job working in a bank."</div><br>
+	<div class="italic">"I struggle at triathlon, photography, coding and guitar. I'm good at my day job working in a bank."</div><br>
 	<div>My areas of focus are web development, not sucking at guitar and piano, taking more photos and training for triathlon. In 2017 I self-published a book on Amazon about trying to qualify for World Triathlon Champs.</div><br>
-	<div>Im an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my "ledger of done"...and once its done who says it cant be made perfect.</div>
+	<div>I'm an amateur at all of my passions and tend to spend more time reading and thinking about projects than actually doing anything. This website is my "ledger of done"...and once it's done who says it can't be made perfect.</div>
 </div>
 <img src="/comic.webp" class="p-4 card-hover" alt="">
 
@@ -132,9 +132,17 @@ export let data: any;
 </div>
 
 {#if showPopup}
-	<div class="fixed inset-0 bg-black/50 flex items-center justify-center z-50" on:click|self={() => showPopup = false}>
+	<div 
+		class="fixed inset-0 bg-black/50 flex items-center justify-center z-50" 
+		on:click|self={() => showPopup = false}
+		on:keydown={(e) => e.key === 'Escape' && (showPopup = false)}
+		role="dialog"
+		aria-modal="true"
+		aria-labelledby="follow-dialog-title"
+		tabindex="-1"
+	>
 		<div class="bg-surface-100-800-token p-6 rounded-lg shadow-xl">
-			<h3 class="text-xl font-bold mb-4">Follow Kevin on X</h3>
+			<h3 id="follow-dialog-title" class="text-xl font-bold mb-4">Follow Kevin on X</h3>
 			<a href="https://x.com/kevinclelland" target="_blank" rel="noopener noreferrer" 
 			   class="btn variant-filled-primary">
 				Visit X Profile

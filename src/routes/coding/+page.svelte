@@ -53,7 +53,7 @@ let albums = [
 			{#each albums as {albumcover, albumname, albumartist, link, description, date}, index (albumcover)}
 				<div class="col-span-1 card card-hover border-y-2 overflow-hidden max-w-xs p-2">
 					<a href="{link}" target="_blank"><header class="flex justify-around">
-						<img src={albumcover} class="max-w-fill" alt="Post" />
+						<img src={albumcover} class="max-w-fill" alt="{albumname} project mockup" loading="lazy" />
 					</header>
 					<div class="p-4 space-y-4">
 						<h3 class="h3">{albumname}</h3>

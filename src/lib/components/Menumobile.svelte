@@ -1,4 +1,7 @@
 <script lang="ts">
+	import Search from '$lib/components/Search.svelte';
+	let showSearch = false;
+	
 	const listData = [
 		//{ avatar: 'YOErFW8AfkI', icon:'❤️', name: 'Liked Songs', label: 'Playlist - 90 songs', link: 'likedsongs' },
 		{ avatar: 'YOErFW8AfkI', icon:'💻️', name: 'Coding', label: 'Coding Graveyard', link: 'coding' },
@@ -7,7 +10,7 @@
 		{ avatar: '8vKVlNIbAc4', icon:'📸', name: 'Photography', label: 'Some of my favourite photos', link: 'photography' },
 		{ avatar: '8vKVlNIbAc4', icon:'🧪', name: 'Projects', label: 'Random Rabbit Holes', link: 'projects' },
 		//{ avatar: '8vKVlNIbAc4', icon:'🎸', name: 'Music', label: 'The record company Rosie, gave me a big advance', link: 'music' },
-		{ avatar: '8vKVlNIbAc4', icon:'⏳️', name: 'Now', label: 'What Im up to now', link: 'now' }
+		{ avatar: '8vKVlNIbAc4', icon:'⏳️', name: 'Now', label: 'What I am up to now', link: 'now' }
 	];
 
 </script>
@@ -22,6 +25,13 @@
 	  <i class="material-icons mr-2">home</i>
 	  <p class="text-lg text-white font-semibold">Home</p>
 	</a>
+	</button>
+	<button 
+		class="flex items-center justify-start opacity-75 hover:opacity-100 mx-3"
+		on:click={() => showSearch = true}
+	>
+		<i class="material-icons mr-2">search</i>
+		<p class="text-lg text-white font-semibold">Search</p>
 	</button>
 	<div class="m-4">
 		<span class="badge variant-filled mx-1">Playlists</span><span class="badge variant-filled-surface mx-1">Albums</span><span class="badge variant-filled-surface mx-1">Artists</span>
@@ -50,3 +60,5 @@
 	{/each}
 
 </div>
+
+<Search bind:isOpen={showSearch} />

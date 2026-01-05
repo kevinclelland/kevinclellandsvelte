@@ -4,12 +4,17 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import Menu from '$lib/components/Menu.svelte';
 	import Menumobile from '$lib/components/Menumobile.svelte';
+	import { navigating } from '$app/stores';
 
 	import PageTransition from './transition.svelte';
 
 	export let data;
 </script>
 
+<!-- Loading indicator -->
+{#if $navigating}
+	<div class="fixed top-0 left-0 right-0 h-1 bg-primary-500 z-[100] animate-pulse" role="progressbar" aria-label="Page loading"></div>
+{/if}
 
 <AppShell>
 	
