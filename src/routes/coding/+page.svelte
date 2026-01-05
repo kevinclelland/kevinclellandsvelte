@@ -18,6 +18,17 @@ interface Project {
 
 let albums: Project[] = [
 	{
+		albumcover: "/mockups/protristatsmockup.webp",
+		albumname: "Pro Tri Stats",
+		albumartist: "Tri Race Results",
+		link: "https://protristats.netlify.app/",
+		description: "Started creating an archive of known triathlon race results going back in history. Hoping to build out the view and analytics off this in the future. ",
+		date: "2025",
+		status: "In Progress",
+		technologies: ["Next.js", "TailwindCSS", "Supabase", "AI"],
+		hosting: "Netlify"
+	},
+	{
 		albumcover: "/mockups/founditmockup.webp",
 		albumname: "Foundit",
 		albumartist: "Student App",
@@ -57,9 +68,9 @@ let albums: Project[] = [
 		link: "https://productowner.guide/",
 		description: "Use Astro framework to build somewhat of an 'Indie Hackers' inspired website to help a Product Owner get up to speed with their career. Used AI to write several blog posts but project just parked until I have some more time.",
 		date: "2023",
-		status: "In Progress",
+		status: "Discontinued",
 		technologies: ["Astro", "AI"],
-		hosting: "Custom Domain"
+		hosting: "Discontinued"
 	},
 	{
 		albumcover: "/mockups/hhmockup.webp",
@@ -79,7 +90,7 @@ let albums: Project[] = [
 		link: "https://www.afternoonscoffeespoons.com/",
 		description: "Currently being rebuilt using SvelteKit, TailwindCSS and Skeleton. A JAMStack site using Node.js, Eleventy and Netlify. Full build process automated through GitHub. Still need to add relevant APIs.",
 		date: "2021",
-		status: "In Progress",
+		status: "Live",
 		technologies: ["SvelteKit", "Node.js", "Eleventy", "Netlify"],
 		hosting: "Custom Domain"
 	},
@@ -90,7 +101,7 @@ let albums: Project[] = [
 		link: "https://inamandlacontractors.co.za/",
 		description: "Currently a vanilla HTML/CSS website for a local construction company. Have re-written in Svelte but not live yet.",
 		date: "2020",
-		status: "In Progress",
+		status: "Live",
 		technologies: ["HTML", "CSS", "Svelte"],
 		hosting: "Custom Domain"
 	},
@@ -101,7 +112,7 @@ let albums: Project[] = [
 		link: "https://bejewelled-souffle-14b639.netlify.app/",
 		description: "Simple landing page for a local kitchen designer",
 		date: "2020",
-		status: "Live",
+		status: "Archived",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		hosting: "Netlify"
 	},
@@ -112,7 +123,7 @@ let albums: Project[] = [
 		link: "https://laughing-bose-3b75b6.netlify.app/",
 		description: "A fun little vanilla HTML/CSS/JS game",
 		date: "2020",
-		status: "Live",
+		status: "Archived",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		hosting: "Netlify"
 	},
@@ -123,7 +134,7 @@ let albums: Project[] = [
 		link: "https://distracted-spence-3351bc.netlify.app/",
 		description: "More vanilla JavaScript but playing with checkboxes. There's that story about someone asking you to pick up 10 pebbles and then to throw away 1 pebble for every 10 years you've lived. What you're left with is the number of years you have left…so make the most of it!",
 		date: "2021",
-		status: "Live",
+		status: "Archived",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		hosting: "Netlify"
 	},
@@ -134,7 +145,7 @@ let albums: Project[] = [
 		link: "https://focused-fermi-4759c7.netlify.app/",
 		description: "A website to calculate running time, distance and pace. Built using HTML, CSS and JavaScript. I relied on maths to get around my relatively poor coding ability and built a working version in Excel first. I am always wondering 'how many minutes per km is a 38min 10km, if I can sustain 3:50/km how fast will my half marathon be'…",
 		date: "2018",
-		status: "Live",
+		status: "Archived",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		hosting: "Netlify"
 	},
@@ -156,7 +167,7 @@ let albums: Project[] = [
 		link: "https://tubular-jalebi-59ed88.netlify.app/",
 		description: "This was built as a tool for paddlers to calculate their pace – similar to timedistancepace.com. This is a simpler version but is slightly different because it deals with speed (km/h) rather than pace (min/km).",
 		date: "2019",
-		status: "Live",
+		status: "Archived",
 		technologies: ["HTML", "CSS", "JavaScript"],
 		hosting: "Netlify"
 	},
@@ -167,7 +178,7 @@ let albums: Project[] = [
 		link: "https://taupe-lily-3eb154.netlify.app/",
 		description: "A fun small project using CSS and a bit of HTML. I was fascinated that a heart in CSS is effectively 3 squares (well one square with the before and after pseudo class!). I loved the idea of the three separate elements coming together to form a heart and it felt a bit like a 'love story'.",
 		date: "2018",
-		status: "Live",
+		status: "Archived",
 		technologies: ["HTML", "CSS"],
 		hosting: "Netlify"
 	},
