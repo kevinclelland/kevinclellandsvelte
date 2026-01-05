@@ -1,21 +1,26 @@
 <script lang="ts">
 import * as config from '$lib/config';
-let followingStatus: String = "Following";
+import { goto } from '$app/navigation';
+import { getRandomPage } from '$lib/utils/navigation';
+
 let showPopup: boolean = false;
+let showMoreMenu: boolean = false;
 
 function follow() {
 	showPopup = !showPopup;
 }
 
-let activeStatus: String = "";
-function active() {
-	if (activeStatus == "") {
-		activeStatus = "text-green-400";
-	} else {
-		activeStatus = "";
+function handlePlayScroll() {
+	const popularSection = document.querySelector('h3');
+	if (popularSection) {
+		popularSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 	}
-	
-};
+}
+
+function handleShuffle() {
+	const randomPage = getRandomPage('/');
+	goto(randomPage);
+}
 
 export let data: any;
 
@@ -44,13 +49,93 @@ export let data: any;
 				<h3 class="sm:hidden text-lg font-semibold text-white opacity-75 mx-1 px-2">5 Focus Areas</h3>
 		</header>
 
-		<div class="flex">
-		<button class="rounded-full h-14 w-14 flex items-center justify-center my-4 mx-2 text-black bg-green-600 hover:bg-green-500"><i class="material-icons text-4xl">play_arrow</i></button>
-		<button class="rounded-full h-18 w-18 flex items-center justify-center my-4 mx-2 opacity-75 hover:opacity-100 {activeStatus}" on:click={active}><i class="material-icons text-4xl">shuffle</i></button>
-		<button class="badge variant-ringed px-4 h-10 my-6 mx-2 hover:variant-filled text-lg" on:click={follow}>Follow</button>
-		<button class="rounded-full h-18 w-18 flex items-center justify-center my-4 mx-2 opacity-75 hover:opacity-100"><i class="material-icons text-4xl">more_horiz</i></button>
+		<div class="flex relative">
+		<button 
+			class="rounded-full h-14 w-14 flex items-center justify-center my-4 mx-2 text-black bg-green-600 hover:bg-green-500"
+			on:click={handlePlayScroll}
+			title="Scroll to content"
+			aria-label="Scroll to Popular section"
+		>
+			<i class="material-icons text-4xl">play_arrow</i>
+		</button>
+		<button 
+			class="rounded-full h-18 w-18 flex items-center justify-center my-4 mx-2 opacity-75 hover:opacity-100"
+			on:click={handleShuffle}
+			title="Go to random page"
+			aria-label="Navigate to random page"
+		>
+			<i class="material-icons text-4xl">shuffle</i>
+		</button>
+		<button 
+			class="badge variant-ringed px-4 h-10 my-6 mx-2 hover:variant-filled text-lg" 
+			on:click={follow}
+		>
+			Follow
+		</button>
+		<button 
+			class="rounded-full h-18 w-18 flex items-center justify-center my-4 mx-2 opacity-75 hover:opacity-100"
+			on:click={() => showMoreMenu = !showMoreMenu}
+			title="More options"
+			aria-label="More options"
+		>
+			<i class="material-icons text-4xl">more_horiz</i>
+		</button>
 		
-		</div>
+		{#if showMoreMenu}
+			<div 
+				class="absolute top-20 right-0 bg-surface-800 rounded-lg shadow-xl p-2 z-50 min-w-48"
+				role="menu"
+			>
+				<a 
+					href="https://www.linkedin.com/in/kevin-clelland-84311420"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="w-full block text-left px-4 py-2 hover:bg-surface-700 rounded flex items-center gap-2"
+					on:click={() => showMoreMenu = false}
+				>
+					<i class="material-icons">work</i>
+					View LinkedIn
+				</a>
+				<a 
+					href="https://github.com/your-username"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="w-full block text-left px-4 py-2 hover:bg-surface-700 rounded flex items-center gap-2"
+					on:click={() => showMoreMenu = false}
+				>
+					<i class="material-icons">code</i>
+					View GitHub
+				</a>
+				<button 
+					class="w-full text-left px-4 py-2 hover:bg-surface-700 rounded flex items-center gap-2"
+					on:click={async () => { 
+						await navigator.clipboard.writeText(window.location.href);
+						alert('Link copied!');
+						showMoreMenu = false;
+					}}
+				>
+					<i class="material-icons">share</i>
+					Share Page
+				</button>
+				<a 
+					href="mailto:kevinclelland@gmail.com?subject=CV Request"
+					class="w-full block text-left px-4 py-2 hover:bg-surface-700 rounded flex items-center gap-2"
+					on:click={() => showMoreMenu = false}
+				>
+					<i class="material-icons">description</i>
+					Request CV
+				</a>
+			</div>
+		{/if}
+	</div>
+
+	{#if showMoreMenu}
+		<button 
+			class="fixed inset-0 z-40"
+			on:click={() => showMoreMenu = false}
+			aria-label="Close menu"
+		></button>
+	{/if}
 
 		<h3 class="h3 px-4 font-semibold">Popular</h3>
 		<div class="px-4 p-2 opacity-75">Albums - Last 30 days</div>

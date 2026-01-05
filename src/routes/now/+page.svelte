@@ -31,7 +31,10 @@
                     
             </header>
     
-            <Play />
+            <Play 
+                pageName="Now" 
+                playAction="scroll"
+            />
     
             <h3 class="h3 p-4 font-semibold">What I'm up to currently</h3>
             <h3 class="h4 px-4 font-semibold">Last Updated: January 2026</h3>

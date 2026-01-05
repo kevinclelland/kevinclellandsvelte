@@ -43,7 +43,11 @@ let albums = [
 				
 		</header>
 
-		<Play />
+		<Play 
+			pageName="Coding" 
+			playAction={() => window.open(albums[0].link, '_blank')}
+			featuredLink={albums[0].link}
+		/>
 
 		<h3 class="h3 p-4 font-semibold">Catalogue</h3>
 

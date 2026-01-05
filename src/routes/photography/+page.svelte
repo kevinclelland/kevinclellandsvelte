@@ -94,7 +94,10 @@
                     
             </header>
     
-            <Play />
+            <Play 
+                pageName="Photography" 
+                playAction="scroll"
+            />
     
             <h3 class="h3 p-4 font-semibold">Some Favourites</h3>
     
