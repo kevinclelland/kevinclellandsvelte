@@ -15,33 +15,42 @@
 
 </script>
 
-<div class="mx-auto text-token grid grid-cols-2 w-screen gap-2 p-4">
-
-<div class="card card-hover col-span-2">
-<div class="flex p-2">
-			
-	<button class="flex items-center justify-start opacity-75 hover:opacity-100 mx-3">
-		<a href="/" class="flex">
-	  <i class="material-icons mr-2">home</i>
-	  <p class="text-lg text-white font-semibold">Home</p>
-	</a>
-	</button>
-	<button 
-		class="flex items-center justify-start opacity-75 hover:opacity-100 mx-3"
-		on:click={() => showSearch = true}
-	>
-		<i class="material-icons mr-2">search</i>
-		<p class="text-lg text-white font-semibold">Search</p>
-	</button>
-	<div class="m-4">
-		<span class="badge variant-filled mx-1">Playlists</span><span class="badge variant-filled-surface mx-1">Albums</span><span class="badge variant-filled-surface mx-1">Artists</span>
-	</div> 
-</div>
+<!-- Top Navigation Bar -->
+<div class="w-full bg-surface-100-800-token border-b border-surface-500/20">
+	<div class="flex items-center justify-between px-4 py-3">
+		<a href="/" class="btn btn-icon opacity-75 hover:opacity-100" aria-label="Home">
+			<i class="material-icons text-2xl">home</i>
+		</a>
+		<h2 class="text-xl font-bold">Kevin Clelland</h2>
+		<button 
+			class="btn btn-icon opacity-75 hover:opacity-100"
+			on:click={() => showSearch = true}
+			aria-label="Search"
+		>
+			<i class="material-icons text-2xl">search</i>
+		</button>
+	</div>
 </div>
 
+<!-- Library Section -->
+<div class="px-4 py-4">
+	<div class="flex items-center justify-between mb-4">
+		<h3 class="h4 font-semibold flex items-center">
+			<i class="material-icons mr-2">library_music</i> 
+			Your Library
+		</h3>
+	</div>
+	
+	<!-- Filter Badges -->
+	<div class="flex gap-2 mb-4 overflow-x-auto pb-2">
+		<span class="badge variant-filled whitespace-nowrap">Playlists</span>
+		<span class="badge variant-filled-surface whitespace-nowrap">Albums</span>
+		<span class="badge variant-filled-surface whitespace-nowrap">Artists</span>
+	</div>
 </div>
-<h3 class="px-4 h3"><i class="material-icons mr-3">library_music</i> Your Library</h3>
-<div class="mx-auto text-token grid grid-cols-2 w-screen gap-2 p-4">
+
+<!-- Library Grid -->
+<div class="mx-auto text-token grid grid-cols-2 w-screen gap-2 px-4 pb-4">
 
 	
 	{#each listData as v}
