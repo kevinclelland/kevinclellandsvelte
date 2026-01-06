@@ -9,6 +9,7 @@ published: true
 avatar: '/headshot.jpg'
 user: Kevin Clelland
 photo: '/bookcoverflat2.jpg'
+wordCount: 681
 ---
 
 <div class="mx-auto w-full max-w-5xl px-2 md:px-4">

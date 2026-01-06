@@ -10,6 +10,7 @@ export type Post = {
 	photo: any;
 	user: string;
 	avatar: any;
+	wordCount?: number;
 };
 
 

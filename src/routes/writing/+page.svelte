@@ -27,9 +27,10 @@
 	};
 
 	// Calculate reading time (average 200 words per minute)
-	function calculateReadingTime(description: string): number {
+	function calculateReadingTime(post: Post): number {
 		const wordsPerMinute = 200;
-		const wordCount = description.split(/\s+/).length;
+		// Use wordCount from frontmatter if available, otherwise fall back to description
+		const wordCount = post.wordCount || post.description.split(/\s+/).length;
 		const minutes = Math.ceil(wordCount / wordsPerMinute);
 		return Math.max(1, minutes); // Minimum 1 minute
 	}
@@ -270,7 +271,7 @@
                         <div class="absolute bottom-2 left-2">
                             <span class="badge variant-filled-surface text-xs flex items-center gap-1">
                                 <i class="material-icons text-xs">schedule</i>
-                                {calculateReadingTime(post.description)} min read
+                                {calculateReadingTime(post)} min read
                             </span>
                         </div>
                     </div>

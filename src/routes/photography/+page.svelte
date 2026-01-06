@@ -4,7 +4,7 @@
 
     type PhotoCategory = 'Landscapes' | 'Portraits' | 'Urban' | 'Nature' | 'Abstract' | 'Sports' | 'Events';
     type ViewMode = 'grid' | 'masonry' | 'single';
-    type Camera = 'Canon EOS R6' | 'Sony A7III' | 'iPhone 14 Pro';
+    type Camera = 'Canon EOS R6' | 'Sony A7III' | 'iPhone 14 Pro' | 'Nikon D80' | 'Nikon D7100';
 
     interface PhotoExif {
         camera: Camera;
@@ -25,18 +25,18 @@
     }
 
     let photos: Photo[] = [
-        {location: "/gallery/1.webp", title: "Golden Hour", year: "2024", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "Canon EOS R6", iso: "100", aperture: "f/8", shutter: "1/250", focalLength: "24mm"}, isFeatured: true},
-        {location: "/gallery/2.webp", title: "Urban Lines", year: "2024", category: "Urban", exif: {camera: "Sony A7III", iso: "400", aperture: "f/5.6", shutter: "1/500", focalLength: "35mm"}},
-        {location: "/gallery/3.webp", title: "Portrait Study", year: "2023", category: "Portraits", collection: "Human Stories", exif: {camera: "Canon EOS R6", iso: "800", aperture: "f/2.8", shutter: "1/125", focalLength: "85mm"}},
-        {location: "/gallery/4.webp", title: "Mountain Majesty", year: "2024", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "Sony A7III", iso: "200", aperture: "f/11", shutter: "1/500", focalLength: "28mm"}, isFeatured: true},
+        {location: "/gallery/1.webp", title: "Drakensberg", year: "2009", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "Nikon D80", iso: "100", aperture: "f/3.5", shutter: "15s", focalLength: "18mm"}, isFeatured: true},
+        {location: "/gallery/2.webp", title: "Dudley Pringle Lightning", year: "2019", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "Nikon D7100", iso: "400", aperture: "f/8", shutter: "20s", focalLength: "27mm"}},
+        {location: "/gallery/3.webp", title: "Pringle Cane Fire", year: "2007", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "Nikon D80", iso: "800", aperture: "f/5.6", shutter: "1/40", focalLength: "135mm"}},
+        {location: "/gallery/4.webp", title: "Mountain Majesty", year: "2009", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "Nikon D80", iso: "200", aperture: "f/22", shutter: "1/50", focalLength: "24mm"}, isFeatured: true},
         {location: "/gallery/5.webp", title: "Abstract Forms", year: "2023", category: "Abstract", exif: {camera: "iPhone 14 Pro", iso: "320", aperture: "f/1.8", shutter: "1/60", focalLength: "26mm"}},
-        {location: "/gallery/6.webp", title: "Wildlife Moment", year: "2024", category: "Nature", collection: "Wildlife", exif: {camera: "Canon EOS R6", iso: "1600", aperture: "f/5.6", shutter: "1/1000", focalLength: "200mm"}},
+        {location: "/gallery/6.webp", title: "Kids Bug Hunt", year: "2024", category: "Nature", collection: "Wildlife", exif: {camera: "Canon EOS R6", iso: "1600", aperture: "f/5.6", shutter: "1/1000", focalLength: "200mm"}},
         {location: "/gallery/7.webp", title: "City Lights", year: "2023", category: "Urban", collection: "City Life", exif: {camera: "Sony A7III", iso: "3200", aperture: "f/2.8", shutter: "1/30", focalLength: "50mm"}},
-        {location: "/gallery/8.webp", title: "Race Day", year: "2024", category: "Sports", collection: "In Motion", exif: {camera: "Canon EOS R6", iso: "800", aperture: "f/4", shutter: "1/2000", focalLength: "70mm"}, isFeatured: true},
+        {location: "/gallery/8.webp", title: "Hole in the Wall", year: "2024", category: "Sports", collection: "In Motion", exif: {camera: "Canon EOS R6", iso: "800", aperture: "f/4", shutter: "1/2000", focalLength: "70mm"}, isFeatured: true},
         {location: "/gallery/9.webp", title: "Sunset Silhouette", year: "2023", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "iPhone 14 Pro", iso: "50", aperture: "f/1.8", shutter: "1/120", focalLength: "26mm"}},
-        {location: "/gallery/10.webp", title: "Architectural Detail", year: "2024", category: "Urban", exif: {camera: "Sony A7III", iso: "400", aperture: "f/8", shutter: "1/250", focalLength: "35mm"}},
+        {location: "/gallery/10.webp", title: "Lake Garda", year: "2024", category: "Urban", exif: {camera: "Sony A7III", iso: "400", aperture: "f/8", shutter: "1/250", focalLength: "35mm"}},
         {location: "/gallery/11.webp", title: "Natural Patterns", year: "2023", category: "Abstract", collection: "Patterns", exif: {camera: "Canon EOS R6", iso: "200", aperture: "f/5.6", shutter: "1/250", focalLength: "50mm"}},
-        {location: "/gallery/12.webp", title: "Ocean Blues", year: "2024", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "Sony A7III", iso: "100", aperture: "f/11", shutter: "1/500", focalLength: "24mm"}},
+        {location: "/gallery/12.webp", title: "Egyptian Geese", year: "2024", category: "Landscapes", collection: "Nature's Canvas", exif: {camera: "Sony A7III", iso: "100", aperture: "f/11", shutter: "1/500", focalLength: "24mm"}},
         {location: "/gallery/13.webp", title: "Street Portrait", year: "2023", category: "Portraits", collection: "Human Stories", exif: {camera: "Canon EOS R6", iso: "640", aperture: "f/2.8", shutter: "1/160", focalLength: "85mm"}},
         {location: "/gallery/14.webp", title: "Forest Path", year: "2024", category: "Nature", collection: "Wildlife", exif: {camera: "Sony A7III", iso: "400", aperture: "f/4", shutter: "1/125", focalLength: "35mm"}},
         {location: "/gallery/15.webp", title: "Urban Geometry", year: "2023", category: "Urban", collection: "City Life", exif: {camera: "iPhone 14 Pro", iso: "125", aperture: "f/1.8", shutter: "1/250", focalLength: "26mm"}},
